@@ -10,7 +10,7 @@ namespace CanBacHai
             //Tieng Viet
             Console.InputEncoding = Encoding.UTF8;
             Console.OutputEncoding = Encoding.UTF8;
-
+            
             while (true)
             {
                 try
