@@ -1,0 +1,28 @@
+D:\Github Clone\LapTrinhCSharp\BTVN Tuan 2\DeQuy\bin\Debug\netcoreapp3.1\DeQuy.exe
+D:\Github Clone\LapTrinhCSharp\BTVN Tuan 2\DeQuy\bin\Debug\netcoreapp3.1\DeQuy.deps.json
+D:\Github Clone\LapTrinhCSharp\BTVN Tuan 2\DeQuy\bin\Debug\netcoreapp3.1\DeQuy.runtimeconfig.json
+D:\Github Clone\LapTrinhCSharp\BTVN Tuan 2\DeQuy\bin\Debug\netcoreapp3.1\DeQuy.runtimeconfig.dev.json
+D:\Github Clone\LapTrinhCSharp\BTVN Tuan 2\DeQuy\bin\Debug\netcoreapp3.1\DeQuy.dll
+D:\Github Clone\LapTrinhCSharp\BTVN Tuan 2\DeQuy\bin\Debug\netcoreapp3.1\DeQuy.pdb
+D:\Github Clone\LapTrinhCSharp\BTVN Tuan 2\DeQuy\obj\Debug\netcoreapp3.1\DeQuy.csproj.AssemblyReference.cache
+D:\Github Clone\LapTrinhCSharp\BTVN Tuan 2\DeQuy\obj\Debug\netcoreapp3.1\DeQuy.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github Clone\LapTrinhCSharp\BTVN Tuan 2\DeQuy\obj\Debug\netcoreapp3.1\DeQuy.AssemblyInfoInputs.cache
+D:\Github Clone\LapTrinhCSharp\BTVN Tuan 2\DeQuy\obj\Debug\netcoreapp3.1\DeQuy.AssemblyInfo.cs
+D:\Github Clone\LapTrinhCSharp\BTVN Tuan 2\DeQuy\obj\Debug\netcoreapp3.1\DeQuy.csproj.CoreCompileInputs.cache
+D:\Github Clone\LapTrinhCSharp\BTVN Tuan 2\DeQuy\obj\Debug\netcoreapp3.1\DeQuy.dll
+D:\Github Clone\LapTrinhCSharp\BTVN Tuan 2\DeQuy\obj\Debug\netcoreapp3.1\DeQuy.pdb
+D:\Github Clone\LapTrinhCSharp\BTVN Tuan 2\DeQuy\obj\Debug\netcoreapp3.1\DeQuy.genruntimeconfig.cache
+D:\Github Clone\LapTrinhCSharp\BT Tren Lop Tuan 2\DeQuy\bin\Debug\netcoreapp3.1\DeQuy.exe
+D:\Github Clone\LapTrinhCSharp\BT Tren Lop Tuan 2\DeQuy\bin\Debug\netcoreapp3.1\DeQuy.deps.json
+D:\Github Clone\LapTrinhCSharp\BT Tren Lop Tuan 2\DeQuy\bin\Debug\netcoreapp3.1\DeQuy.runtimeconfig.json
+D:\Github Clone\LapTrinhCSharp\BT Tren Lop Tuan 2\DeQuy\bin\Debug\netcoreapp3.1\DeQuy.runtimeconfig.dev.json
+D:\Github Clone\LapTrinhCSharp\BT Tren Lop Tuan 2\DeQuy\bin\Debug\netcoreapp3.1\DeQuy.dll
+D:\Github Clone\LapTrinhCSharp\BT Tren Lop Tuan 2\DeQuy\bin\Debug\netcoreapp3.1\DeQuy.pdb
+D:\Github Clone\LapTrinhCSharp\BT Tren Lop Tuan 2\DeQuy\obj\Debug\netcoreapp3.1\DeQuy.csproj.AssemblyReference.cache
+D:\Github Clone\LapTrinhCSharp\BT Tren Lop Tuan 2\DeQuy\obj\Debug\netcoreapp3.1\DeQuy.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github Clone\LapTrinhCSharp\BT Tren Lop Tuan 2\DeQuy\obj\Debug\netcoreapp3.1\DeQuy.AssemblyInfoInputs.cache
+D:\Github Clone\LapTrinhCSharp\BT Tren Lop Tuan 2\DeQuy\obj\Debug\netcoreapp3.1\DeQuy.AssemblyInfo.cs
+D:\Github Clone\LapTrinhCSharp\BT Tren Lop Tuan 2\DeQuy\obj\Debug\netcoreapp3.1\DeQuy.csproj.CoreCompileInputs.cache
+D:\Github Clone\LapTrinhCSharp\BT Tren Lop Tuan 2\DeQuy\obj\Debug\netcoreapp3.1\DeQuy.dll
+D:\Github Clone\LapTrinhCSharp\BT Tren Lop Tuan 2\DeQuy\obj\Debug\netcoreapp3.1\DeQuy.pdb
+D:\Github Clone\LapTrinhCSharp\BT Tren Lop Tuan 2\DeQuy\obj\Debug\netcoreapp3.1\DeQuy.genruntimeconfig.cache

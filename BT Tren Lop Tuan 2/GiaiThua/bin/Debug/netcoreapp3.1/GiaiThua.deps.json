@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "GiaiThua/1.0.0": {
+        "runtime": {
+          "GiaiThua.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GiaiThua/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

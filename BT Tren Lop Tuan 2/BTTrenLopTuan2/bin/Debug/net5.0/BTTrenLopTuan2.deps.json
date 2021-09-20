@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "BTTrenLopTuan2/1.0.0": {
+        "runtime": {
+          "BTTrenLopTuan2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BTTrenLopTuan2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

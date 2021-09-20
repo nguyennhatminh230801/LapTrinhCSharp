@@ -1,0 +1,16 @@
+D:\Github Clone\LapTrinhCSharp\BT Tren Lop Tuan 2\BTTrenLopTuan2\bin\Debug\net5.0\BTTrenLopTuan2.exe
+D:\Github Clone\LapTrinhCSharp\BT Tren Lop Tuan 2\BTTrenLopTuan2\bin\Debug\net5.0\BTTrenLopTuan2.deps.json
+D:\Github Clone\LapTrinhCSharp\BT Tren Lop Tuan 2\BTTrenLopTuan2\bin\Debug\net5.0\BTTrenLopTuan2.runtimeconfig.json
+D:\Github Clone\LapTrinhCSharp\BT Tren Lop Tuan 2\BTTrenLopTuan2\bin\Debug\net5.0\BTTrenLopTuan2.runtimeconfig.dev.json
+D:\Github Clone\LapTrinhCSharp\BT Tren Lop Tuan 2\BTTrenLopTuan2\bin\Debug\net5.0\BTTrenLopTuan2.dll
+D:\Github Clone\LapTrinhCSharp\BT Tren Lop Tuan 2\BTTrenLopTuan2\bin\Debug\net5.0\ref\BTTrenLopTuan2.dll
+D:\Github Clone\LapTrinhCSharp\BT Tren Lop Tuan 2\BTTrenLopTuan2\bin\Debug\net5.0\BTTrenLopTuan2.pdb
+D:\Github Clone\LapTrinhCSharp\BT Tren Lop Tuan 2\BTTrenLopTuan2\obj\Debug\net5.0\BTTrenLopTuan2.csproj.AssemblyReference.cache
+D:\Github Clone\LapTrinhCSharp\BT Tren Lop Tuan 2\BTTrenLopTuan2\obj\Debug\net5.0\BTTrenLopTuan2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github Clone\LapTrinhCSharp\BT Tren Lop Tuan 2\BTTrenLopTuan2\obj\Debug\net5.0\BTTrenLopTuan2.AssemblyInfoInputs.cache
+D:\Github Clone\LapTrinhCSharp\BT Tren Lop Tuan 2\BTTrenLopTuan2\obj\Debug\net5.0\BTTrenLopTuan2.AssemblyInfo.cs
+D:\Github Clone\LapTrinhCSharp\BT Tren Lop Tuan 2\BTTrenLopTuan2\obj\Debug\net5.0\BTTrenLopTuan2.csproj.CoreCompileInputs.cache
+D:\Github Clone\LapTrinhCSharp\BT Tren Lop Tuan 2\BTTrenLopTuan2\obj\Debug\net5.0\BTTrenLopTuan2.dll
+D:\Github Clone\LapTrinhCSharp\BT Tren Lop Tuan 2\BTTrenLopTuan2\obj\Debug\net5.0\ref\BTTrenLopTuan2.dll
+D:\Github Clone\LapTrinhCSharp\BT Tren Lop Tuan 2\BTTrenLopTuan2\obj\Debug\net5.0\BTTrenLopTuan2.pdb
+D:\Github Clone\LapTrinhCSharp\BT Tren Lop Tuan 2\BTTrenLopTuan2\obj\Debug\net5.0\BTTrenLopTuan2.genruntimeconfig.cache

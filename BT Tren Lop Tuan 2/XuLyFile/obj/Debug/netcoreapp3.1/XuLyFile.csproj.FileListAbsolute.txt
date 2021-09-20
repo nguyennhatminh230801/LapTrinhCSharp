@@ -1,0 +1,14 @@
+D:\Github Clone\LapTrinhCSharp\BT Tren Lop Tuan 2\XuLyFile\bin\Debug\netcoreapp3.1\XuLyFile.exe
+D:\Github Clone\LapTrinhCSharp\BT Tren Lop Tuan 2\XuLyFile\bin\Debug\netcoreapp3.1\XuLyFile.deps.json
+D:\Github Clone\LapTrinhCSharp\BT Tren Lop Tuan 2\XuLyFile\bin\Debug\netcoreapp3.1\XuLyFile.runtimeconfig.json
+D:\Github Clone\LapTrinhCSharp\BT Tren Lop Tuan 2\XuLyFile\bin\Debug\netcoreapp3.1\XuLyFile.runtimeconfig.dev.json
+D:\Github Clone\LapTrinhCSharp\BT Tren Lop Tuan 2\XuLyFile\bin\Debug\netcoreapp3.1\XuLyFile.dll
+D:\Github Clone\LapTrinhCSharp\BT Tren Lop Tuan 2\XuLyFile\bin\Debug\netcoreapp3.1\XuLyFile.pdb
+D:\Github Clone\LapTrinhCSharp\BT Tren Lop Tuan 2\XuLyFile\obj\Debug\netcoreapp3.1\XuLyFile.csproj.AssemblyReference.cache
+D:\Github Clone\LapTrinhCSharp\BT Tren Lop Tuan 2\XuLyFile\obj\Debug\netcoreapp3.1\XuLyFile.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github Clone\LapTrinhCSharp\BT Tren Lop Tuan 2\XuLyFile\obj\Debug\netcoreapp3.1\XuLyFile.AssemblyInfoInputs.cache
+D:\Github Clone\LapTrinhCSharp\BT Tren Lop Tuan 2\XuLyFile\obj\Debug\netcoreapp3.1\XuLyFile.AssemblyInfo.cs
+D:\Github Clone\LapTrinhCSharp\BT Tren Lop Tuan 2\XuLyFile\obj\Debug\netcoreapp3.1\XuLyFile.csproj.CoreCompileInputs.cache
+D:\Github Clone\LapTrinhCSharp\BT Tren Lop Tuan 2\XuLyFile\obj\Debug\netcoreapp3.1\XuLyFile.dll
+D:\Github Clone\LapTrinhCSharp\BT Tren Lop Tuan 2\XuLyFile\obj\Debug\netcoreapp3.1\XuLyFile.pdb
+D:\Github Clone\LapTrinhCSharp\BT Tren Lop Tuan 2\XuLyFile\obj\Debug\netcoreapp3.1\XuLyFile.genruntimeconfig.cache
