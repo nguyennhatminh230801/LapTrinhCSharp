@@ -1,0 +1,14 @@
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\4. CuuChuong\bin\Debug\netcoreapp3.1\4. CuuChuong.exe
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\4. CuuChuong\bin\Debug\netcoreapp3.1\4. CuuChuong.deps.json
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\4. CuuChuong\bin\Debug\netcoreapp3.1\4. CuuChuong.runtimeconfig.json
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\4. CuuChuong\bin\Debug\netcoreapp3.1\4. CuuChuong.runtimeconfig.dev.json
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\4. CuuChuong\bin\Debug\netcoreapp3.1\4. CuuChuong.dll
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\4. CuuChuong\bin\Debug\netcoreapp3.1\4. CuuChuong.pdb
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\4. CuuChuong\obj\Debug\netcoreapp3.1\4. CuuChuong.csproj.AssemblyReference.cache
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\4. CuuChuong\obj\Debug\netcoreapp3.1\4. CuuChuong.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\4. CuuChuong\obj\Debug\netcoreapp3.1\4. CuuChuong.AssemblyInfoInputs.cache
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\4. CuuChuong\obj\Debug\netcoreapp3.1\4. CuuChuong.AssemblyInfo.cs
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\4. CuuChuong\obj\Debug\netcoreapp3.1\4. CuuChuong.csproj.CoreCompileInputs.cache
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\4. CuuChuong\obj\Debug\netcoreapp3.1\4. CuuChuong.dll
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\4. CuuChuong\obj\Debug\netcoreapp3.1\4. CuuChuong.pdb
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\4. CuuChuong\obj\Debug\netcoreapp3.1\4. CuuChuong.genruntimeconfig.cache

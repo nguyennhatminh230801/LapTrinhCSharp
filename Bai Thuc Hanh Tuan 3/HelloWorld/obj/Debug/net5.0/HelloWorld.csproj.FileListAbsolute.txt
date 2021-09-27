@@ -1,0 +1,16 @@
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\HelloWorld\bin\Debug\net5.0\HelloWorld.exe
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\HelloWorld\bin\Debug\net5.0\HelloWorld.deps.json
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\HelloWorld\bin\Debug\net5.0\HelloWorld.runtimeconfig.json
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\HelloWorld\bin\Debug\net5.0\HelloWorld.runtimeconfig.dev.json
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\HelloWorld\bin\Debug\net5.0\HelloWorld.dll
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\HelloWorld\bin\Debug\net5.0\ref\HelloWorld.dll
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\HelloWorld\bin\Debug\net5.0\HelloWorld.pdb
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\HelloWorld\obj\Debug\net5.0\HelloWorld.csproj.AssemblyReference.cache
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\HelloWorld\obj\Debug\net5.0\HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\HelloWorld\obj\Debug\net5.0\HelloWorld.AssemblyInfoInputs.cache
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\HelloWorld\obj\Debug\net5.0\HelloWorld.AssemblyInfo.cs
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\HelloWorld\obj\Debug\net5.0\HelloWorld.csproj.CoreCompileInputs.cache
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\HelloWorld\obj\Debug\net5.0\HelloWorld.dll
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\HelloWorld\obj\Debug\net5.0\ref\HelloWorld.dll
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\HelloWorld\obj\Debug\net5.0\HelloWorld.pdb
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\HelloWorld\obj\Debug\net5.0\HelloWorld.genruntimeconfig.cache

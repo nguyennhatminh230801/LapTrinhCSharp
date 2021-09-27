@@ -1,0 +1,14 @@
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\5. NhapLieu\bin\Debug\netcoreapp3.1\5. NhapLieu.exe
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\5. NhapLieu\bin\Debug\netcoreapp3.1\5. NhapLieu.deps.json
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\5. NhapLieu\bin\Debug\netcoreapp3.1\5. NhapLieu.runtimeconfig.json
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\5. NhapLieu\bin\Debug\netcoreapp3.1\5. NhapLieu.runtimeconfig.dev.json
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\5. NhapLieu\bin\Debug\netcoreapp3.1\5. NhapLieu.dll
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\5. NhapLieu\bin\Debug\netcoreapp3.1\5. NhapLieu.pdb
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\5. NhapLieu\obj\Debug\netcoreapp3.1\5. NhapLieu.csproj.AssemblyReference.cache
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\5. NhapLieu\obj\Debug\netcoreapp3.1\5. NhapLieu.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\5. NhapLieu\obj\Debug\netcoreapp3.1\5. NhapLieu.AssemblyInfoInputs.cache
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\5. NhapLieu\obj\Debug\netcoreapp3.1\5. NhapLieu.AssemblyInfo.cs
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\5. NhapLieu\obj\Debug\netcoreapp3.1\5. NhapLieu.csproj.CoreCompileInputs.cache
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\5. NhapLieu\obj\Debug\netcoreapp3.1\5. NhapLieu.dll
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\5. NhapLieu\obj\Debug\netcoreapp3.1\5. NhapLieu.pdb
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\5. NhapLieu\obj\Debug\netcoreapp3.1\5. NhapLieu.genruntimeconfig.cache

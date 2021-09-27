@@ -1,0 +1,14 @@
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\2. TachDay\bin\Debug\netcoreapp3.1\2. TachDay.exe
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\2. TachDay\bin\Debug\netcoreapp3.1\2. TachDay.deps.json
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\2. TachDay\bin\Debug\netcoreapp3.1\2. TachDay.runtimeconfig.json
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\2. TachDay\bin\Debug\netcoreapp3.1\2. TachDay.runtimeconfig.dev.json
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\2. TachDay\bin\Debug\netcoreapp3.1\2. TachDay.dll
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\2. TachDay\bin\Debug\netcoreapp3.1\2. TachDay.pdb
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\2. TachDay\obj\Debug\netcoreapp3.1\2. TachDay.csproj.AssemblyReference.cache
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\2. TachDay\obj\Debug\netcoreapp3.1\2. TachDay.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\2. TachDay\obj\Debug\netcoreapp3.1\2. TachDay.AssemblyInfoInputs.cache
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\2. TachDay\obj\Debug\netcoreapp3.1\2. TachDay.AssemblyInfo.cs
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\2. TachDay\obj\Debug\netcoreapp3.1\2. TachDay.csproj.CoreCompileInputs.cache
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\2. TachDay\obj\Debug\netcoreapp3.1\2. TachDay.dll
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\2. TachDay\obj\Debug\netcoreapp3.1\2. TachDay.pdb
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\2. TachDay\obj\Debug\netcoreapp3.1\2. TachDay.genruntimeconfig.cache

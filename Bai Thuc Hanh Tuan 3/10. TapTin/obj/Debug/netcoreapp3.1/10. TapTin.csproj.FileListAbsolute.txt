@@ -1,0 +1,14 @@
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\10. TapTin\bin\Debug\netcoreapp3.1\10. TapTin.exe
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\10. TapTin\bin\Debug\netcoreapp3.1\10. TapTin.deps.json
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\10. TapTin\bin\Debug\netcoreapp3.1\10. TapTin.runtimeconfig.json
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\10. TapTin\bin\Debug\netcoreapp3.1\10. TapTin.runtimeconfig.dev.json
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\10. TapTin\bin\Debug\netcoreapp3.1\10. TapTin.dll
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\10. TapTin\bin\Debug\netcoreapp3.1\10. TapTin.pdb
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\10. TapTin\obj\Debug\netcoreapp3.1\10. TapTin.csproj.AssemblyReference.cache
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\10. TapTin\obj\Debug\netcoreapp3.1\10. TapTin.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\10. TapTin\obj\Debug\netcoreapp3.1\10. TapTin.AssemblyInfoInputs.cache
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\10. TapTin\obj\Debug\netcoreapp3.1\10. TapTin.AssemblyInfo.cs
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\10. TapTin\obj\Debug\netcoreapp3.1\10. TapTin.csproj.CoreCompileInputs.cache
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\10. TapTin\obj\Debug\netcoreapp3.1\10. TapTin.dll
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\10. TapTin\obj\Debug\netcoreapp3.1\10. TapTin.pdb
+D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\10. TapTin\obj\Debug\netcoreapp3.1\10. TapTin.genruntimeconfig.cache
