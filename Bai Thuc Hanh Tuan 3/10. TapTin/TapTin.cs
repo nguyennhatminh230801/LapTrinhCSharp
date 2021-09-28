@@ -11,8 +11,8 @@ namespace _10._TapTin
             Console.InputEncoding = Encoding.UTF8;
             Console.OutputEncoding = Encoding.UTF8;
 
-            string input = @"D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\10. TapTin\VanBanInput.txt";
-            string output = @"D:\Github Clone\LapTrinhCSharp\Bai Thuc Hanh Tuan 3\10. TapTin\VanBanOutput.txt";
+            string input = "VanBanInput.txt";
+            string output = "VanBanOutput.txt";
             StreamReader streamReader = null;
             StreamWriter streamWriter = null;
 
@@ -45,7 +45,9 @@ namespace _10._TapTin
                 streamWriter = File.AppendText(output);
 
                 streamWriter.WriteLine("Tổng số từ: {0}", TotalWord);
-                streamWriter.Close()
+                streamWriter.Close();
+
+                Console.WriteLine("Kết thúc!!");
             }
             catch (FileNotFoundException)
             {

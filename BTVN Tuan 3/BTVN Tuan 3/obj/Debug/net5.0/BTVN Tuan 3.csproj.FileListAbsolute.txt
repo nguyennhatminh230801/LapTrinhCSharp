@@ -1,0 +1,16 @@
+D:\Github Clone\LapTrinhCSharp\BTVN Tuan 3\BTVN Tuan 3\bin\Debug\net5.0\BTVN Tuan 3.exe
+D:\Github Clone\LapTrinhCSharp\BTVN Tuan 3\BTVN Tuan 3\bin\Debug\net5.0\BTVN Tuan 3.deps.json
+D:\Github Clone\LapTrinhCSharp\BTVN Tuan 3\BTVN Tuan 3\bin\Debug\net5.0\BTVN Tuan 3.runtimeconfig.json
+D:\Github Clone\LapTrinhCSharp\BTVN Tuan 3\BTVN Tuan 3\bin\Debug\net5.0\BTVN Tuan 3.runtimeconfig.dev.json
+D:\Github Clone\LapTrinhCSharp\BTVN Tuan 3\BTVN Tuan 3\bin\Debug\net5.0\BTVN Tuan 3.dll
+D:\Github Clone\LapTrinhCSharp\BTVN Tuan 3\BTVN Tuan 3\bin\Debug\net5.0\ref\BTVN Tuan 3.dll
+D:\Github Clone\LapTrinhCSharp\BTVN Tuan 3\BTVN Tuan 3\bin\Debug\net5.0\BTVN Tuan 3.pdb
+D:\Github Clone\LapTrinhCSharp\BTVN Tuan 3\BTVN Tuan 3\obj\Debug\net5.0\BTVN Tuan 3.csproj.AssemblyReference.cache
+D:\Github Clone\LapTrinhCSharp\BTVN Tuan 3\BTVN Tuan 3\obj\Debug\net5.0\BTVN Tuan 3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github Clone\LapTrinhCSharp\BTVN Tuan 3\BTVN Tuan 3\obj\Debug\net5.0\BTVN Tuan 3.AssemblyInfoInputs.cache
+D:\Github Clone\LapTrinhCSharp\BTVN Tuan 3\BTVN Tuan 3\obj\Debug\net5.0\BTVN Tuan 3.AssemblyInfo.cs
+D:\Github Clone\LapTrinhCSharp\BTVN Tuan 3\BTVN Tuan 3\obj\Debug\net5.0\BTVN Tuan 3.csproj.CoreCompileInputs.cache
+D:\Github Clone\LapTrinhCSharp\BTVN Tuan 3\BTVN Tuan 3\obj\Debug\net5.0\BTVN Tuan 3.dll
+D:\Github Clone\LapTrinhCSharp\BTVN Tuan 3\BTVN Tuan 3\obj\Debug\net5.0\ref\BTVN Tuan 3.dll
+D:\Github Clone\LapTrinhCSharp\BTVN Tuan 3\BTVN Tuan 3\obj\Debug\net5.0\BTVN Tuan 3.pdb
+D:\Github Clone\LapTrinhCSharp\BTVN Tuan 3\BTVN Tuan 3\obj\Debug\net5.0\BTVN Tuan 3.genruntimeconfig.cache
