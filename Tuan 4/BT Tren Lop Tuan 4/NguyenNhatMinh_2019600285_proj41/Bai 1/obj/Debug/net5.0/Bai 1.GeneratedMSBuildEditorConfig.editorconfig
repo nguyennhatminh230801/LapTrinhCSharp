@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net5.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.PublishSingleFile = 
+build_property.IncludeAllContentForSelfExtract = 
+build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.RootNamespace = Bai_1
+build_property.ProjectDir = D:\Github Clone\LapTrinhCSharp\Tuan 4\BT Tren Lop Tuan 4\NguyenNhatMinh_2019600285_proj41\Bai 1\
