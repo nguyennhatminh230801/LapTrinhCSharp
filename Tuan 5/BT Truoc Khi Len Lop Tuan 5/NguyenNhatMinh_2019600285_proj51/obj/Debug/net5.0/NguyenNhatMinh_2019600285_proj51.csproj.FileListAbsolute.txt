@@ -1,0 +1,16 @@
+D:\Github Clone\LapTrinhCSharp\Tuan 5\NguyenNhatMinh_2019600285_proj51\bin\Debug\net5.0\NguyenNhatMinh_2019600285_proj51.exe
+D:\Github Clone\LapTrinhCSharp\Tuan 5\NguyenNhatMinh_2019600285_proj51\bin\Debug\net5.0\NguyenNhatMinh_2019600285_proj51.deps.json
+D:\Github Clone\LapTrinhCSharp\Tuan 5\NguyenNhatMinh_2019600285_proj51\bin\Debug\net5.0\NguyenNhatMinh_2019600285_proj51.runtimeconfig.json
+D:\Github Clone\LapTrinhCSharp\Tuan 5\NguyenNhatMinh_2019600285_proj51\bin\Debug\net5.0\NguyenNhatMinh_2019600285_proj51.runtimeconfig.dev.json
+D:\Github Clone\LapTrinhCSharp\Tuan 5\NguyenNhatMinh_2019600285_proj51\bin\Debug\net5.0\NguyenNhatMinh_2019600285_proj51.dll
+D:\Github Clone\LapTrinhCSharp\Tuan 5\NguyenNhatMinh_2019600285_proj51\bin\Debug\net5.0\ref\NguyenNhatMinh_2019600285_proj51.dll
+D:\Github Clone\LapTrinhCSharp\Tuan 5\NguyenNhatMinh_2019600285_proj51\bin\Debug\net5.0\NguyenNhatMinh_2019600285_proj51.pdb
+D:\Github Clone\LapTrinhCSharp\Tuan 5\NguyenNhatMinh_2019600285_proj51\obj\Debug\net5.0\NguyenNhatMinh_2019600285_proj51.csproj.AssemblyReference.cache
+D:\Github Clone\LapTrinhCSharp\Tuan 5\NguyenNhatMinh_2019600285_proj51\obj\Debug\net5.0\NguyenNhatMinh_2019600285_proj51.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github Clone\LapTrinhCSharp\Tuan 5\NguyenNhatMinh_2019600285_proj51\obj\Debug\net5.0\NguyenNhatMinh_2019600285_proj51.AssemblyInfoInputs.cache
+D:\Github Clone\LapTrinhCSharp\Tuan 5\NguyenNhatMinh_2019600285_proj51\obj\Debug\net5.0\NguyenNhatMinh_2019600285_proj51.AssemblyInfo.cs
+D:\Github Clone\LapTrinhCSharp\Tuan 5\NguyenNhatMinh_2019600285_proj51\obj\Debug\net5.0\NguyenNhatMinh_2019600285_proj51.csproj.CoreCompileInputs.cache
+D:\Github Clone\LapTrinhCSharp\Tuan 5\NguyenNhatMinh_2019600285_proj51\obj\Debug\net5.0\NguyenNhatMinh_2019600285_proj51.dll
+D:\Github Clone\LapTrinhCSharp\Tuan 5\NguyenNhatMinh_2019600285_proj51\obj\Debug\net5.0\ref\NguyenNhatMinh_2019600285_proj51.dll
+D:\Github Clone\LapTrinhCSharp\Tuan 5\NguyenNhatMinh_2019600285_proj51\obj\Debug\net5.0\NguyenNhatMinh_2019600285_proj51.pdb
+D:\Github Clone\LapTrinhCSharp\Tuan 5\NguyenNhatMinh_2019600285_proj51\obj\Debug\net5.0\NguyenNhatMinh_2019600285_proj51.genruntimeconfig.cache
