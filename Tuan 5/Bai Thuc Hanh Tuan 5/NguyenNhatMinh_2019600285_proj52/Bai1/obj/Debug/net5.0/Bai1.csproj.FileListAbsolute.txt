@@ -1,0 +1,16 @@
+D:\Github Clone\LapTrinhCSharp\Tuan 5\Bai Thuc Hanh Tuan 5\NguyenNhatMinh_2019600285_proj52\Bai1\bin\Debug\net5.0\Bai1.exe
+D:\Github Clone\LapTrinhCSharp\Tuan 5\Bai Thuc Hanh Tuan 5\NguyenNhatMinh_2019600285_proj52\Bai1\bin\Debug\net5.0\Bai1.deps.json
+D:\Github Clone\LapTrinhCSharp\Tuan 5\Bai Thuc Hanh Tuan 5\NguyenNhatMinh_2019600285_proj52\Bai1\bin\Debug\net5.0\Bai1.runtimeconfig.json
+D:\Github Clone\LapTrinhCSharp\Tuan 5\Bai Thuc Hanh Tuan 5\NguyenNhatMinh_2019600285_proj52\Bai1\bin\Debug\net5.0\Bai1.runtimeconfig.dev.json
+D:\Github Clone\LapTrinhCSharp\Tuan 5\Bai Thuc Hanh Tuan 5\NguyenNhatMinh_2019600285_proj52\Bai1\bin\Debug\net5.0\Bai1.dll
+D:\Github Clone\LapTrinhCSharp\Tuan 5\Bai Thuc Hanh Tuan 5\NguyenNhatMinh_2019600285_proj52\Bai1\bin\Debug\net5.0\ref\Bai1.dll
+D:\Github Clone\LapTrinhCSharp\Tuan 5\Bai Thuc Hanh Tuan 5\NguyenNhatMinh_2019600285_proj52\Bai1\bin\Debug\net5.0\Bai1.pdb
+D:\Github Clone\LapTrinhCSharp\Tuan 5\Bai Thuc Hanh Tuan 5\NguyenNhatMinh_2019600285_proj52\Bai1\obj\Debug\net5.0\Bai1.csproj.AssemblyReference.cache
+D:\Github Clone\LapTrinhCSharp\Tuan 5\Bai Thuc Hanh Tuan 5\NguyenNhatMinh_2019600285_proj52\Bai1\obj\Debug\net5.0\Bai1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github Clone\LapTrinhCSharp\Tuan 5\Bai Thuc Hanh Tuan 5\NguyenNhatMinh_2019600285_proj52\Bai1\obj\Debug\net5.0\Bai1.AssemblyInfoInputs.cache
+D:\Github Clone\LapTrinhCSharp\Tuan 5\Bai Thuc Hanh Tuan 5\NguyenNhatMinh_2019600285_proj52\Bai1\obj\Debug\net5.0\Bai1.AssemblyInfo.cs
+D:\Github Clone\LapTrinhCSharp\Tuan 5\Bai Thuc Hanh Tuan 5\NguyenNhatMinh_2019600285_proj52\Bai1\obj\Debug\net5.0\Bai1.csproj.CoreCompileInputs.cache
+D:\Github Clone\LapTrinhCSharp\Tuan 5\Bai Thuc Hanh Tuan 5\NguyenNhatMinh_2019600285_proj52\Bai1\obj\Debug\net5.0\Bai1.dll
+D:\Github Clone\LapTrinhCSharp\Tuan 5\Bai Thuc Hanh Tuan 5\NguyenNhatMinh_2019600285_proj52\Bai1\obj\Debug\net5.0\ref\Bai1.dll
+D:\Github Clone\LapTrinhCSharp\Tuan 5\Bai Thuc Hanh Tuan 5\NguyenNhatMinh_2019600285_proj52\Bai1\obj\Debug\net5.0\Bai1.pdb
+D:\Github Clone\LapTrinhCSharp\Tuan 5\Bai Thuc Hanh Tuan 5\NguyenNhatMinh_2019600285_proj52\Bai1\obj\Debug\net5.0\Bai1.genruntimeconfig.cache

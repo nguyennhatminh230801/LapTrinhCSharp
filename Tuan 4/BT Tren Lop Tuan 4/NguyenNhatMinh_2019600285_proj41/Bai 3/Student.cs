@@ -2,81 +2,56 @@
 {
     class Student
     {
-        private string id;
-        private string name;
-        private int mark;
-        private int scholarship;
-
-        public string Id { get => id; set => id = value; }
-        public string Name { get => name; set => name = value; }
-        public int Mark { get => mark; set => mark = value; }
+        public string Id { get; set; }
+        public string Name { get; set; }
+        public int Mark { get; set; }
 
         public int Scholarship 
         {
-            set
+            get
             {
-                if (mark > 8)
+                if (Mark > 8)
                 {
-                    scholarship = 500;
+                    return 500;
                 }
-                else if (mark >= 7 && mark <= 8)
+                else if (Mark >= 7 && Mark <= 8)
                 {
-                    scholarship = 300;
+                    return 300;
                 }
                 else
                 {
-                    scholarship = 0;
+                    return 0;
                 }
-            }
-
-            get
-            {
-                return scholarship;
             }
         }
 
         public Student()
         {
-            id = "";
-            name = "";
-            mark = 0;
-            scholarship = 0;
+            Id = "DEFAULT_ID";
+            Name = "DEFAULT_NAME";
+            Mark = 0;
         }
 
         public Student(string id)
         {
-            this.id = id;
-            name = "";
-            mark = 0;
-            scholarship = 0;
+            Id = id;
+            Name = "DEFAULT_NAME";
+            Mark = 0;
         }
 
         public Student(string id, string name, int mark)
         {
-            this.id = id;
-            this.name = name;
-            this.mark = mark;
-
-            if (mark > 8)
-            {
-                scholarship = 500;
-            }
-            else if (mark >= 7 && mark <= 8)
-            {
-                scholarship = 300;
-            }
-            else
-            {
-                scholarship = 0;
-            }
+            Id = id;
+            Name = name;
+            Mark = mark;
         }
 
         public override string ToString()
         {
-            return $"\nID: {id}" +
-                   $"\nTên: {name}" +
-                   $"\nĐiểm: {mark}" +
-                   $"\nHọc Bổng: {scholarship}";
+            return $"\nID: {Id}" +
+                   $"\nTên: {Name}" +
+                   $"\nĐiểm: {Mark}" +
+                   $"\nHọc Bổng: {Scholarship}";
         }
     }
 }
