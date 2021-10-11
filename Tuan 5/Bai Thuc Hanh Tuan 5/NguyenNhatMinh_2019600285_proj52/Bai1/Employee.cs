@@ -19,7 +19,10 @@ namespace Bai1
 
         public Employee()
         {
-
+            id = "DEFAULT_ID";
+            name = "DEFAULT_NAME";
+            age = 0;
+            workingDays = 0;
         }
 
         public Employee(string id, string name, int age, int workingDays)
