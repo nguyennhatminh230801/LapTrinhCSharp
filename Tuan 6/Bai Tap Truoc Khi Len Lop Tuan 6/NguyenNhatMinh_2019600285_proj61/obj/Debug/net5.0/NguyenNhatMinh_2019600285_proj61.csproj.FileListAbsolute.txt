@@ -1,0 +1,16 @@
+D:\Github Clone\LapTrinhCSharp\Tuan 6\Bai Tap Truoc Khi Len Lop Tuan 6\NguyenNhatMinh_2019600285_proj61\bin\Debug\net5.0\NguyenNhatMinh_2019600285_proj61.exe
+D:\Github Clone\LapTrinhCSharp\Tuan 6\Bai Tap Truoc Khi Len Lop Tuan 6\NguyenNhatMinh_2019600285_proj61\bin\Debug\net5.0\NguyenNhatMinh_2019600285_proj61.deps.json
+D:\Github Clone\LapTrinhCSharp\Tuan 6\Bai Tap Truoc Khi Len Lop Tuan 6\NguyenNhatMinh_2019600285_proj61\bin\Debug\net5.0\NguyenNhatMinh_2019600285_proj61.runtimeconfig.json
+D:\Github Clone\LapTrinhCSharp\Tuan 6\Bai Tap Truoc Khi Len Lop Tuan 6\NguyenNhatMinh_2019600285_proj61\bin\Debug\net5.0\NguyenNhatMinh_2019600285_proj61.runtimeconfig.dev.json
+D:\Github Clone\LapTrinhCSharp\Tuan 6\Bai Tap Truoc Khi Len Lop Tuan 6\NguyenNhatMinh_2019600285_proj61\bin\Debug\net5.0\NguyenNhatMinh_2019600285_proj61.dll
+D:\Github Clone\LapTrinhCSharp\Tuan 6\Bai Tap Truoc Khi Len Lop Tuan 6\NguyenNhatMinh_2019600285_proj61\bin\Debug\net5.0\ref\NguyenNhatMinh_2019600285_proj61.dll
+D:\Github Clone\LapTrinhCSharp\Tuan 6\Bai Tap Truoc Khi Len Lop Tuan 6\NguyenNhatMinh_2019600285_proj61\bin\Debug\net5.0\NguyenNhatMinh_2019600285_proj61.pdb
+D:\Github Clone\LapTrinhCSharp\Tuan 6\Bai Tap Truoc Khi Len Lop Tuan 6\NguyenNhatMinh_2019600285_proj61\obj\Debug\net5.0\NguyenNhatMinh_2019600285_proj61.csproj.AssemblyReference.cache
+D:\Github Clone\LapTrinhCSharp\Tuan 6\Bai Tap Truoc Khi Len Lop Tuan 6\NguyenNhatMinh_2019600285_proj61\obj\Debug\net5.0\NguyenNhatMinh_2019600285_proj61.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github Clone\LapTrinhCSharp\Tuan 6\Bai Tap Truoc Khi Len Lop Tuan 6\NguyenNhatMinh_2019600285_proj61\obj\Debug\net5.0\NguyenNhatMinh_2019600285_proj61.AssemblyInfoInputs.cache
+D:\Github Clone\LapTrinhCSharp\Tuan 6\Bai Tap Truoc Khi Len Lop Tuan 6\NguyenNhatMinh_2019600285_proj61\obj\Debug\net5.0\NguyenNhatMinh_2019600285_proj61.AssemblyInfo.cs
+D:\Github Clone\LapTrinhCSharp\Tuan 6\Bai Tap Truoc Khi Len Lop Tuan 6\NguyenNhatMinh_2019600285_proj61\obj\Debug\net5.0\NguyenNhatMinh_2019600285_proj61.csproj.CoreCompileInputs.cache
+D:\Github Clone\LapTrinhCSharp\Tuan 6\Bai Tap Truoc Khi Len Lop Tuan 6\NguyenNhatMinh_2019600285_proj61\obj\Debug\net5.0\NguyenNhatMinh_2019600285_proj61.dll
+D:\Github Clone\LapTrinhCSharp\Tuan 6\Bai Tap Truoc Khi Len Lop Tuan 6\NguyenNhatMinh_2019600285_proj61\obj\Debug\net5.0\ref\NguyenNhatMinh_2019600285_proj61.dll
+D:\Github Clone\LapTrinhCSharp\Tuan 6\Bai Tap Truoc Khi Len Lop Tuan 6\NguyenNhatMinh_2019600285_proj61\obj\Debug\net5.0\NguyenNhatMinh_2019600285_proj61.pdb
+D:\Github Clone\LapTrinhCSharp\Tuan 6\Bai Tap Truoc Khi Len Lop Tuan 6\NguyenNhatMinh_2019600285_proj61\obj\Debug\net5.0\NguyenNhatMinh_2019600285_proj61.genruntimeconfig.cache
