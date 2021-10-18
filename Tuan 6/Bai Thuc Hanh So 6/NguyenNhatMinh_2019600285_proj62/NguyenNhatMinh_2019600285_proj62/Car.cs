@@ -23,7 +23,7 @@ namespace NguyenNhatMinh_2019600285_proj62
             Console.InputEncoding = Encoding.UTF8;
             Console.OutputEncoding = Encoding.UTF8;
 
-            Console.WriteLine("Nhập Màu Sắc: ");
+            Console.Write("Nhập Màu Sắc: ");
             color = Console.ReadLine();
         }
 

@@ -58,12 +58,12 @@ namespace NguyenNhatMinh_2019600285_proj62
 
                         case 5:
                             Console.Clear();
-                            Console.WriteLine(SapXepTheoPrice(vehicleList));
+                            Console.WriteLine(SapXepTheoPrice(ref vehicleList));
                             break;
 
                         case 6:
                             Console.Clear();
-                            Console.WriteLine(SapXepTheoYear(vehicleList));
+                            Console.WriteLine(SapXepTheoYear(ref vehicleList));
                             break;
 
                         case 7:
@@ -109,7 +109,7 @@ namespace NguyenNhatMinh_2019600285_proj62
             }
         }
 
-        public static string SapXepTheoYear(List<Vehicles> vehicleList)
+        public static string SapXepTheoYear(ref List<Vehicles> vehicleList)
         {
             if (vehicleList.Count == 0)
             {
@@ -119,6 +119,8 @@ namespace NguyenNhatMinh_2019600285_proj62
             var query = (from vehicle in vehicleList
                          orderby vehicle.year
                          select vehicle).ToList();
+
+            vehicleList = query;
 
             Console.WriteLine("Danh sách sau khi sắp xếp: ");
 
@@ -133,7 +135,7 @@ namespace NguyenNhatMinh_2019600285_proj62
             return "Sắp xếp thành công".ToUpper();
         }
 
-        public static string SapXepTheoPrice(List<Vehicles> vehicleList)
+        public static string SapXepTheoPrice(ref List<Vehicles> vehicleList)
         {
             if (vehicleList.Count == 0)
             {
@@ -144,6 +146,7 @@ namespace NguyenNhatMinh_2019600285_proj62
                          orderby vehicle.price
                          select vehicle).ToList();
 
+            vehicleList = query;
             Console.WriteLine("Danh sách sau khi sắp xếp: ");
 
             int i = 1;
