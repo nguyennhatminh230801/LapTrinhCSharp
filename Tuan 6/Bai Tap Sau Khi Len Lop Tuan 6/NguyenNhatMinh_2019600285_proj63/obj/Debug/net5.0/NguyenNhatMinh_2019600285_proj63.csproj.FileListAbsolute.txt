@@ -1,0 +1,16 @@
+D:\Github Clone\LapTrinhCSharp\Tuan 6\Bai Tap Sau Khi Len Lop Tuan 6\NguyenNhatMinh_2019600285_proj63\bin\Debug\net5.0\NguyenNhatMinh_2019600285_proj63.exe
+D:\Github Clone\LapTrinhCSharp\Tuan 6\Bai Tap Sau Khi Len Lop Tuan 6\NguyenNhatMinh_2019600285_proj63\bin\Debug\net5.0\NguyenNhatMinh_2019600285_proj63.deps.json
+D:\Github Clone\LapTrinhCSharp\Tuan 6\Bai Tap Sau Khi Len Lop Tuan 6\NguyenNhatMinh_2019600285_proj63\bin\Debug\net5.0\NguyenNhatMinh_2019600285_proj63.runtimeconfig.json
+D:\Github Clone\LapTrinhCSharp\Tuan 6\Bai Tap Sau Khi Len Lop Tuan 6\NguyenNhatMinh_2019600285_proj63\bin\Debug\net5.0\NguyenNhatMinh_2019600285_proj63.runtimeconfig.dev.json
+D:\Github Clone\LapTrinhCSharp\Tuan 6\Bai Tap Sau Khi Len Lop Tuan 6\NguyenNhatMinh_2019600285_proj63\bin\Debug\net5.0\NguyenNhatMinh_2019600285_proj63.dll
+D:\Github Clone\LapTrinhCSharp\Tuan 6\Bai Tap Sau Khi Len Lop Tuan 6\NguyenNhatMinh_2019600285_proj63\bin\Debug\net5.0\ref\NguyenNhatMinh_2019600285_proj63.dll
+D:\Github Clone\LapTrinhCSharp\Tuan 6\Bai Tap Sau Khi Len Lop Tuan 6\NguyenNhatMinh_2019600285_proj63\bin\Debug\net5.0\NguyenNhatMinh_2019600285_proj63.pdb
+D:\Github Clone\LapTrinhCSharp\Tuan 6\Bai Tap Sau Khi Len Lop Tuan 6\NguyenNhatMinh_2019600285_proj63\obj\Debug\net5.0\NguyenNhatMinh_2019600285_proj63.csproj.AssemblyReference.cache
+D:\Github Clone\LapTrinhCSharp\Tuan 6\Bai Tap Sau Khi Len Lop Tuan 6\NguyenNhatMinh_2019600285_proj63\obj\Debug\net5.0\NguyenNhatMinh_2019600285_proj63.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github Clone\LapTrinhCSharp\Tuan 6\Bai Tap Sau Khi Len Lop Tuan 6\NguyenNhatMinh_2019600285_proj63\obj\Debug\net5.0\NguyenNhatMinh_2019600285_proj63.AssemblyInfoInputs.cache
+D:\Github Clone\LapTrinhCSharp\Tuan 6\Bai Tap Sau Khi Len Lop Tuan 6\NguyenNhatMinh_2019600285_proj63\obj\Debug\net5.0\NguyenNhatMinh_2019600285_proj63.AssemblyInfo.cs
+D:\Github Clone\LapTrinhCSharp\Tuan 6\Bai Tap Sau Khi Len Lop Tuan 6\NguyenNhatMinh_2019600285_proj63\obj\Debug\net5.0\NguyenNhatMinh_2019600285_proj63.csproj.CoreCompileInputs.cache
+D:\Github Clone\LapTrinhCSharp\Tuan 6\Bai Tap Sau Khi Len Lop Tuan 6\NguyenNhatMinh_2019600285_proj63\obj\Debug\net5.0\NguyenNhatMinh_2019600285_proj63.dll
+D:\Github Clone\LapTrinhCSharp\Tuan 6\Bai Tap Sau Khi Len Lop Tuan 6\NguyenNhatMinh_2019600285_proj63\obj\Debug\net5.0\ref\NguyenNhatMinh_2019600285_proj63.dll
+D:\Github Clone\LapTrinhCSharp\Tuan 6\Bai Tap Sau Khi Len Lop Tuan 6\NguyenNhatMinh_2019600285_proj63\obj\Debug\net5.0\NguyenNhatMinh_2019600285_proj63.pdb
+D:\Github Clone\LapTrinhCSharp\Tuan 6\Bai Tap Sau Khi Len Lop Tuan 6\NguyenNhatMinh_2019600285_proj63\obj\Debug\net5.0\NguyenNhatMinh_2019600285_proj63.genruntimeconfig.cache
