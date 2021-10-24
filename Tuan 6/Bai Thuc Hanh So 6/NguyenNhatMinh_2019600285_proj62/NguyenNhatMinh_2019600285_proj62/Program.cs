@@ -126,7 +126,7 @@ namespace NguyenNhatMinh_2019600285_proj62
 
             int i = 1;
 
-            foreach (var item in query)
+            foreach (var item in vehicleList)
             {
                 Console.WriteLine($"Thông tin xe tải thứ {i++}: ");
                 item.Output();
@@ -151,7 +151,7 @@ namespace NguyenNhatMinh_2019600285_proj62
 
             int i = 1;
 
-            foreach (var item in query)
+            foreach (var item in vehicleList)
             {
                 Console.WriteLine($"Thông tin xe tải thứ {i++}: ");
                 item.Output();
