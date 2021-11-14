@@ -26,27 +26,32 @@ namespace Bai9._5
             WindowStartupLocation = WindowStartupLocation.CenterScreen;
         }
 
-        private void OnLoadingForm(object sender, RoutedEventArgs e)
-        {
-
-            List<GameItem> gameItems = new List<GameItem>();
-
-            gameItems.Add(new GameItem() { GameName = "Fifa Online 4", ImageAddress = "Images\\icon1.png" });
-            gameItems.Add(new GameItem() { GameName = "Fifa Online 4 Mobile", ImageAddress = "Images\\icon2.png" });
-            gameItems.Add(new GameItem() { GameName = "Blade And Soul", ImageAddress = "Images\\icon3.png" });
-            gameItems.Add(new GameItem() { GameName = "Liên Quân Mobile", ImageAddress = "Images\\icon4.png" });
-            gameItems.Add(new GameItem() { GameName = "Free Fire", ImageAddress = "Images\\icon5.png" });
-            gameItems.Add(new GameItem() { GameName = "Liên Minh Huyền Thoại", ImageAddress = "Images\\icon6.png" });
-
-            lbItem.ItemsSource = null;
-            lbItem.ItemsSource = gameItems;
-        }
-
         private void setOnClick_btnGoiDoUong(object sender, RoutedEventArgs e)
         {
-            
-        }
+            List<string> answer = new List<string>();
 
-        
+            foreach (StackPanel stackPanel in lbItem.Children)
+            {
+                CheckBox checkBox = stackPanel.Children.OfType<CheckBox>().FirstOrDefault();
+                
+                if (checkBox.IsChecked == false)
+                {
+                    continue;
+                }
+                
+                var res = stackPanel.Children.OfType<Label>().FirstOrDefault().Content.ToString();
+                answer.Add(res);
+            }
+
+            if(answer.Count == 0)
+            {
+                MessageBox.Show("Chưa có lựa chọn nào!!!", "Thông Báo", MessageBoxButton.OK, MessageBoxImage.Information);
+            }
+            else
+            {
+                string stringAnswer = answer.Aggregate((first, second) => first + "," + second);
+                MessageBox.Show("Bạn đã chọn: " + stringAnswer, "Thông Báo", MessageBoxButton.OK, MessageBoxImage.Information);
+            }      
+        }
     }
 }
