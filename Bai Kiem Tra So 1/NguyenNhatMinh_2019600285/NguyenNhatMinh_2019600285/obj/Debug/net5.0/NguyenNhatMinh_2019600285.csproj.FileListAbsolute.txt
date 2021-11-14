@@ -1,0 +1,32 @@
+C:\Users\Admin\OneDrive\Desktop\NguyenNhatMinh_2019600285\bin\Debug\net5.0\NguyenNhatMinh_2019600285.exe
+C:\Users\Admin\OneDrive\Desktop\NguyenNhatMinh_2019600285\bin\Debug\net5.0\NguyenNhatMinh_2019600285.deps.json
+C:\Users\Admin\OneDrive\Desktop\NguyenNhatMinh_2019600285\bin\Debug\net5.0\NguyenNhatMinh_2019600285.runtimeconfig.json
+C:\Users\Admin\OneDrive\Desktop\NguyenNhatMinh_2019600285\bin\Debug\net5.0\NguyenNhatMinh_2019600285.runtimeconfig.dev.json
+C:\Users\Admin\OneDrive\Desktop\NguyenNhatMinh_2019600285\bin\Debug\net5.0\NguyenNhatMinh_2019600285.dll
+C:\Users\Admin\OneDrive\Desktop\NguyenNhatMinh_2019600285\bin\Debug\net5.0\ref\NguyenNhatMinh_2019600285.dll
+C:\Users\Admin\OneDrive\Desktop\NguyenNhatMinh_2019600285\bin\Debug\net5.0\NguyenNhatMinh_2019600285.pdb
+C:\Users\Admin\OneDrive\Desktop\NguyenNhatMinh_2019600285\obj\Debug\net5.0\NguyenNhatMinh_2019600285.csproj.AssemblyReference.cache
+C:\Users\Admin\OneDrive\Desktop\NguyenNhatMinh_2019600285\obj\Debug\net5.0\NguyenNhatMinh_2019600285.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\OneDrive\Desktop\NguyenNhatMinh_2019600285\obj\Debug\net5.0\NguyenNhatMinh_2019600285.AssemblyInfoInputs.cache
+C:\Users\Admin\OneDrive\Desktop\NguyenNhatMinh_2019600285\obj\Debug\net5.0\NguyenNhatMinh_2019600285.AssemblyInfo.cs
+C:\Users\Admin\OneDrive\Desktop\NguyenNhatMinh_2019600285\obj\Debug\net5.0\NguyenNhatMinh_2019600285.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive\Desktop\NguyenNhatMinh_2019600285\obj\Debug\net5.0\NguyenNhatMinh_2019600285.dll
+C:\Users\Admin\OneDrive\Desktop\NguyenNhatMinh_2019600285\obj\Debug\net5.0\ref\NguyenNhatMinh_2019600285.dll
+C:\Users\Admin\OneDrive\Desktop\NguyenNhatMinh_2019600285\obj\Debug\net5.0\NguyenNhatMinh_2019600285.pdb
+C:\Users\Admin\OneDrive\Desktop\NguyenNhatMinh_2019600285\obj\Debug\net5.0\NguyenNhatMinh_2019600285.genruntimeconfig.cache
+D:\Github Clone\LapTrinhCSharp\Bai Kiem Tra So 1\NguyenNhatMinh_2019600285\NguyenNhatMinh_2019600285\bin\Debug\net5.0\NguyenNhatMinh_2019600285.exe
+D:\Github Clone\LapTrinhCSharp\Bai Kiem Tra So 1\NguyenNhatMinh_2019600285\NguyenNhatMinh_2019600285\bin\Debug\net5.0\NguyenNhatMinh_2019600285.deps.json
+D:\Github Clone\LapTrinhCSharp\Bai Kiem Tra So 1\NguyenNhatMinh_2019600285\NguyenNhatMinh_2019600285\bin\Debug\net5.0\NguyenNhatMinh_2019600285.runtimeconfig.json
+D:\Github Clone\LapTrinhCSharp\Bai Kiem Tra So 1\NguyenNhatMinh_2019600285\NguyenNhatMinh_2019600285\bin\Debug\net5.0\NguyenNhatMinh_2019600285.runtimeconfig.dev.json
+D:\Github Clone\LapTrinhCSharp\Bai Kiem Tra So 1\NguyenNhatMinh_2019600285\NguyenNhatMinh_2019600285\bin\Debug\net5.0\NguyenNhatMinh_2019600285.dll
+D:\Github Clone\LapTrinhCSharp\Bai Kiem Tra So 1\NguyenNhatMinh_2019600285\NguyenNhatMinh_2019600285\bin\Debug\net5.0\ref\NguyenNhatMinh_2019600285.dll
+D:\Github Clone\LapTrinhCSharp\Bai Kiem Tra So 1\NguyenNhatMinh_2019600285\NguyenNhatMinh_2019600285\bin\Debug\net5.0\NguyenNhatMinh_2019600285.pdb
+D:\Github Clone\LapTrinhCSharp\Bai Kiem Tra So 1\NguyenNhatMinh_2019600285\NguyenNhatMinh_2019600285\obj\Debug\net5.0\NguyenNhatMinh_2019600285.csproj.AssemblyReference.cache
+D:\Github Clone\LapTrinhCSharp\Bai Kiem Tra So 1\NguyenNhatMinh_2019600285\NguyenNhatMinh_2019600285\obj\Debug\net5.0\NguyenNhatMinh_2019600285.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github Clone\LapTrinhCSharp\Bai Kiem Tra So 1\NguyenNhatMinh_2019600285\NguyenNhatMinh_2019600285\obj\Debug\net5.0\NguyenNhatMinh_2019600285.AssemblyInfoInputs.cache
+D:\Github Clone\LapTrinhCSharp\Bai Kiem Tra So 1\NguyenNhatMinh_2019600285\NguyenNhatMinh_2019600285\obj\Debug\net5.0\NguyenNhatMinh_2019600285.AssemblyInfo.cs
+D:\Github Clone\LapTrinhCSharp\Bai Kiem Tra So 1\NguyenNhatMinh_2019600285\NguyenNhatMinh_2019600285\obj\Debug\net5.0\NguyenNhatMinh_2019600285.csproj.CoreCompileInputs.cache
+D:\Github Clone\LapTrinhCSharp\Bai Kiem Tra So 1\NguyenNhatMinh_2019600285\NguyenNhatMinh_2019600285\obj\Debug\net5.0\NguyenNhatMinh_2019600285.dll
+D:\Github Clone\LapTrinhCSharp\Bai Kiem Tra So 1\NguyenNhatMinh_2019600285\NguyenNhatMinh_2019600285\obj\Debug\net5.0\ref\NguyenNhatMinh_2019600285.dll
+D:\Github Clone\LapTrinhCSharp\Bai Kiem Tra So 1\NguyenNhatMinh_2019600285\NguyenNhatMinh_2019600285\obj\Debug\net5.0\NguyenNhatMinh_2019600285.pdb
+D:\Github Clone\LapTrinhCSharp\Bai Kiem Tra So 1\NguyenNhatMinh_2019600285\NguyenNhatMinh_2019600285\obj\Debug\net5.0\NguyenNhatMinh_2019600285.genruntimeconfig.cache

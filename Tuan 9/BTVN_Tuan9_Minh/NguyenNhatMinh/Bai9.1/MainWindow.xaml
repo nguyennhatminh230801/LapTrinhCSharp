@@ -1,0 +1,69 @@
+﻿<Window x:Class="Bai9._1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bai9._1"
+        mc:Ignorable="d"
+        Title="Phần Mềm Quản Lý Sách" Height="450" Width="750">
+    <Grid Loaded="OnLoadingForm">
+        <ListBox 
+            x:Name="listUnchooseBook1" 
+            HorizontalAlignment="Left" 
+            Height="333" 
+            Margin="53,0,0,0" 
+            VerticalAlignment="Center" 
+            Width="274"
+            SelectedIndex="0"/>
+        <ListBox 
+            x:Name="listChooseBook1" 
+            HorizontalAlignment="Left" 
+            Height="333" 
+            Margin="425,0,0,0" 
+            VerticalAlignment="Center" 
+            Width="274"
+            SelectedIndex="0"/>
+        <Label
+            x:Name="label3" 
+            Content="Danh sách:" 
+            HorizontalAlignment="Left" 
+            Margin="53,20,0,0" 
+            VerticalAlignment="Top"/>
+        <Label 
+            x:Name="label4" 
+            Content="Sách đã chọn:" 
+            HorizontalAlignment="Left" 
+            Margin="425,20,0,0" 
+            VerticalAlignment="Top"/>
+        <Button 
+            x:Name="btnChooseOne1" 
+            Content="&gt;" 
+            HorizontalAlignment="Left" 
+            Height="27" 
+            Margin="349,94,0,0" 
+            VerticalAlignment="Top" 
+            Width="46" Click="btnChooseOne1_Click"/>
+        <Button 
+            x:Name="btnChooseAll" 
+            Content="&gt;&gt;" 
+            HorizontalAlignment="Left" 
+            Height="27" Margin="349,141,0,0" 
+            VerticalAlignment="Top" 
+            Width="46" Click="btnChooseAll_Click"/>
+        <Button 
+            x:Name="btnUnchooseOne" 
+            Content="&lt;" 
+            HorizontalAlignment="Left" 
+            Height="27" Margin="349,190,0,0" 
+            VerticalAlignment="Top" 
+            Width="46" Click="btnUnchooseOne_Click"/>
+        <Button 
+            x:Name="btnUnchooseAll" 
+            Content="&lt;&lt;" 
+            HorizontalAlignment="Left" 
+            Height="27" 
+            Margin="349,235,0,0" 
+            VerticalAlignment="Top" 
+            Width="46" Click="btnUnchooseAll_Click"/>
+    </Grid>
+</Window>

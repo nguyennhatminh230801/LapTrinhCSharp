@@ -1,0 +1,22 @@
+D:\Github Clone\LapTrinhCSharp\Tuan 9\Thuc Hanh WPF\My First WPF\bin\Debug\net5.0-windows\My First WPF.exe
+D:\Github Clone\LapTrinhCSharp\Tuan 9\Thuc Hanh WPF\My First WPF\bin\Debug\net5.0-windows\My First WPF.deps.json
+D:\Github Clone\LapTrinhCSharp\Tuan 9\Thuc Hanh WPF\My First WPF\bin\Debug\net5.0-windows\My First WPF.runtimeconfig.json
+D:\Github Clone\LapTrinhCSharp\Tuan 9\Thuc Hanh WPF\My First WPF\bin\Debug\net5.0-windows\My First WPF.runtimeconfig.dev.json
+D:\Github Clone\LapTrinhCSharp\Tuan 9\Thuc Hanh WPF\My First WPF\bin\Debug\net5.0-windows\My First WPF.dll
+D:\Github Clone\LapTrinhCSharp\Tuan 9\Thuc Hanh WPF\My First WPF\bin\Debug\net5.0-windows\ref\My First WPF.dll
+D:\Github Clone\LapTrinhCSharp\Tuan 9\Thuc Hanh WPF\My First WPF\bin\Debug\net5.0-windows\My First WPF.pdb
+D:\Github Clone\LapTrinhCSharp\Tuan 9\Thuc Hanh WPF\My First WPF\obj\Debug\net5.0-windows\My First WPF.csproj.AssemblyReference.cache
+D:\Github Clone\LapTrinhCSharp\Tuan 9\Thuc Hanh WPF\My First WPF\obj\Debug\net5.0-windows\MainWindow.g.cs
+D:\Github Clone\LapTrinhCSharp\Tuan 9\Thuc Hanh WPF\My First WPF\obj\Debug\net5.0-windows\App.g.cs
+D:\Github Clone\LapTrinhCSharp\Tuan 9\Thuc Hanh WPF\My First WPF\obj\Debug\net5.0-windows\My First WPF_MarkupCompile.cache
+D:\Github Clone\LapTrinhCSharp\Tuan 9\Thuc Hanh WPF\My First WPF\obj\Debug\net5.0-windows\My First WPF_MarkupCompile.lref
+D:\Github Clone\LapTrinhCSharp\Tuan 9\Thuc Hanh WPF\My First WPF\obj\Debug\net5.0-windows\MainWindow.baml
+D:\Github Clone\LapTrinhCSharp\Tuan 9\Thuc Hanh WPF\My First WPF\obj\Debug\net5.0-windows\My First WPF.g.resources
+D:\Github Clone\LapTrinhCSharp\Tuan 9\Thuc Hanh WPF\My First WPF\obj\Debug\net5.0-windows\My First WPF.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github Clone\LapTrinhCSharp\Tuan 9\Thuc Hanh WPF\My First WPF\obj\Debug\net5.0-windows\My First WPF.AssemblyInfoInputs.cache
+D:\Github Clone\LapTrinhCSharp\Tuan 9\Thuc Hanh WPF\My First WPF\obj\Debug\net5.0-windows\My First WPF.AssemblyInfo.cs
+D:\Github Clone\LapTrinhCSharp\Tuan 9\Thuc Hanh WPF\My First WPF\obj\Debug\net5.0-windows\My First WPF.csproj.CoreCompileInputs.cache
+D:\Github Clone\LapTrinhCSharp\Tuan 9\Thuc Hanh WPF\My First WPF\obj\Debug\net5.0-windows\My First WPF.dll
+D:\Github Clone\LapTrinhCSharp\Tuan 9\Thuc Hanh WPF\My First WPF\obj\Debug\net5.0-windows\ref\My First WPF.dll
+D:\Github Clone\LapTrinhCSharp\Tuan 9\Thuc Hanh WPF\My First WPF\obj\Debug\net5.0-windows\My First WPF.pdb
+D:\Github Clone\LapTrinhCSharp\Tuan 9\Thuc Hanh WPF\My First WPF\obj\Debug\net5.0-windows\My First WPF.genruntimeconfig.cache

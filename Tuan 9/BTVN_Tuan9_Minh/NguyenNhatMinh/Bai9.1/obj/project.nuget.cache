@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "SOU64zhxliMJIyVMr8Uo6J7saYqkU2V+/ccBuo9D5kfov5qQMEd0CYoWja3lA854VP2NWUt/RV5zMg2bYJGBZQ==",
+  "success": true,
+  "projectFilePath": "D:\\Github Clone\\LapTrinhCSharp\\Tuan 9\\BTVN_Tuan9_Minh\\NguyenNhatMinh\\Bai9.1\\Bai9.1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.0\\microsoft.netcore.app.runtime.win-x64.6.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.0\\microsoft.aspnetcore.app.runtime.win-x64.6.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.0\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

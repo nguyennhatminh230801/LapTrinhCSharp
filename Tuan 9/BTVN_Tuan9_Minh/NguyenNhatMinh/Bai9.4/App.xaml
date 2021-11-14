@@ -1,0 +1,22 @@
+﻿<Application x:Class="Bai9._4.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Bai9._4"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <SolidColorBrush 
+            x:Key="BrownPastel">#836953</SolidColorBrush>
+        <SolidColorBrush
+            x:Key="CoffeeColor">#392C21</SolidColorBrush>
+        <Style x:Key="Poppins_Normal">
+            <Setter 
+                Property="TextElement.FontFamily"
+                Value="/Fonts/#PoppinsBlack" />
+        </Style>
+        <Style x:Key="Poppins_Bold">
+            <Setter 
+                Property="TextElement.FontFamily"
+                Value="/Fonts/#PoppinsSemiBold" />
+        </Style>
+    </Application.Resources>
+</Application>

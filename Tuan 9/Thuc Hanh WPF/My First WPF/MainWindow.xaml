@@ -1,0 +1,125 @@
+﻿<Window x:Class="My_First_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:My_First_WPF"
+        mc:Ignorable="d"
+        Title="Ứng dụng WPF Đầu Tiên" Height="450" Width="600">
+    <Grid Margin="0,0,0,2">
+        <Label 
+            x:Name="Label1" 
+            Content="Họ Đệm: " 
+            HorizontalAlignment="Left" 
+            Margin="47,43,0,0" 
+            VerticalAlignment="Top" 
+            RenderTransformOrigin="-3.308,0.12" FontSize="15" FontWeight="Bold" Grid.ColumnSpan="3"/>
+        <Label 
+            x:Name="Label2"
+            Content="Tên: " 
+            HorizontalAlignment="Left" 
+            Margin="48,92,0,0" 
+            VerticalAlignment="Top" 
+            RenderTransformOrigin="-3.308,0.12" FontSize="15" FontWeight="Bold" Grid.ColumnSpan="3"/>
+        <Label 
+            x:Name="Label3" 
+            Content="Giới Tính: " 
+            HorizontalAlignment="Left" 
+            Margin="48,138,0,0" 
+            VerticalAlignment="Top" 
+            RenderTransformOrigin="-3.308,0.12" FontSize="15" FontWeight="Bold" Grid.ColumnSpan="3"/>
+        <Label 
+            x:Name="Label4" 
+            Content="Ngoại Ngữ:" 
+            HorizontalAlignment="Left" 
+            Margin="47,179,0,0" 
+            VerticalAlignment="Top" 
+            RenderTransformOrigin="-3.308,0.12" FontSize="15" FontWeight="Bold" Grid.ColumnSpan="3"/>
+        <Label 
+            x:Name="Label5" 
+            Content="Quê Quán:" 
+            HorizontalAlignment="Left" 
+            Margin="47,231,0,0" 
+            VerticalAlignment="Top" 
+            RenderTransformOrigin="-3.308,0.12" FontSize="15" FontWeight="Bold" Grid.ColumnSpan="3"/>
+        <TextBox 
+            x:Name="txtHoDem" 
+            HorizontalAlignment="Left" 
+            Margin="139,47,0,0"  
+            TextWrapping="Wrap" 
+            VerticalAlignment="Top" 
+            Width="331" FontSize="15"/>
+        <TextBox 
+            x:Name="txtTen" 
+            HorizontalAlignment="Left" 
+            Margin="139,96,0,0" 
+            TextWrapping="Wrap" 
+            VerticalAlignment="Top" 
+            Width="331" FontSize="15"/>
+        <RadioButton 
+            x:Name="rdNam" 
+            Content="Nam" 
+            HorizontalAlignment="Left" 
+            Margin="178,144,0,0" 
+            VerticalAlignment="Top" 
+            FontSize="15" 
+            RenderTransformOrigin="-0.078,-0.659" 
+            GroupName="rdGroup_GioiTinh"
+            IsChecked="True"/>
+        <RadioButton 
+            x:Name="rdNu" 
+            Content="Nữ" 
+            HorizontalAlignment="Left" 
+            Margin="308,144,0,0" 
+            VerticalAlignment="Top" 
+            FontSize="15" 
+            GroupName="rdGroup_GioiTinh"/>
+        <CheckBox 
+            x:Name="chkTiengAnh" 
+            Content="Tiếng Anh" 
+            HorizontalAlignment="Left" 
+            Margin="171,190,0,0" 
+            VerticalAlignment="Top" 
+            FontSize="15"/>
+        <CheckBox 
+            x:Name="chkTiengViet" 
+            Content="Tiếng Việt" 
+            HorizontalAlignment="Left" 
+            Margin="308,190,0,0" 
+            VerticalAlignment="Top" 
+            FontSize="15"/>
+        <ComboBox 
+            x:Name="cbQueQuan"
+            HorizontalAlignment="Left" 
+            Margin="179,233,0,0" 
+            VerticalAlignment="Top" 
+            Width="194" 
+            FontSize="15"
+            SelectedIndex="0">
+            <ComboBoxItem>Hà Nội</ComboBoxItem>
+            <ComboBoxItem>Thanh Hóa</ComboBoxItem>
+            <ComboBoxItem>Hải Phòng</ComboBoxItem>
+            <ComboBoxItem>TP HCM</ComboBoxItem>
+        </ComboBox>
+        <Button 
+            x:Name="btnXemThongTin" 
+            Content="Xem Thông Tin" 
+            HorizontalAlignment="Left" 
+            Margin="93,302,0,0" 
+            VerticalAlignment="Top" 
+            FontSize="15" 
+            Height="35" 
+            Width="142" 
+            Click="btnXemThongTin_Click"/>
+        <Button 
+            x:Name="btnNhapLai" 
+            Content="Nhập Lại" 
+            HorizontalAlignment="Left" 
+            Margin="317,302,0,0" 
+            VerticalAlignment="Top" 
+            FontSize="15" 
+            Height="35" 
+            Width="142" 
+            Click="btnNhapLai_Click"/>
+    </Grid>
+</Window>
