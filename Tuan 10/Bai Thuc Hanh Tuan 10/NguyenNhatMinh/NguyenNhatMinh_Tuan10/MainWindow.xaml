@@ -1,0 +1,82 @@
+﻿<Window x:Class="NguyenNhatMinh_Tuan10.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NguyenNhatMinh_Tuan10"
+        mc:Ignorable="d"
+        Title="QLSV" Height="450" Width="800">
+    <StackPanel>
+        <Menu 
+            x:Name="thanhMenu"
+            Height="26">
+            <MenuItem
+                Header="Hệ Thống" />
+            <MenuItem
+                Header="Chức năng" />
+            <MenuItem
+                Header="Hỗ Trợ" />
+        </Menu>
+        <ToolBar
+            x:Name="thanhToolbar"
+            Height="40">
+            <Button
+                Width="40"
+                Height="40"
+                ToolTip="Thêm Sinh Viên"
+                Margin="10,0,10,0">
+                <Image
+                    Source="Images/add-user.png" />
+            </Button>
+            <Button
+                Width="40"
+                Height="40"
+                ToolTip="Khoa"
+                Margin="0,0,10,0">
+                <Image
+                    Source="Images/group.png" />
+            </Button>
+            <Button
+                Width="40"
+                Height="40"
+                ToolTip="Môn Học"
+                Margin="0,0,10,0">
+                <Image
+                    Source="Images/book.png" />
+            </Button>
+            <Button
+                Width="40"
+                Height="40"
+                ToolTip="Nhập Điểm"
+                Margin="0,0,10,0">
+                <Image
+                    Source="Images/scores.png" />
+            </Button>
+            <Separator />
+            <Button
+                Width="40"
+                Height="40"
+                ToolTip="Xem Điểm"
+                Margin="10,0,10,0">
+                <Image
+                    Source="Images/rating.png" />
+            </Button>
+            <Button
+                Width="40"
+                Height="40"
+                ToolTip="Thống Kê Khoa"
+                Margin="0,0,10,0">
+                <Image
+                    Source="Images/statistics.png" />
+            </Button>
+            <Button
+                Width="40"
+                Height="40"
+                ToolTip="Thoát"
+                Margin="250,0,10,0">
+                <Image
+                    Source="Images/logout.png" />
+            </Button>
+        </ToolBar>
+    </StackPanel>
+</Window>

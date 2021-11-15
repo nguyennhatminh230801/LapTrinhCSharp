@@ -79,15 +79,15 @@
             </StackPanel>
         </StackPanel>
         <Button 
-            x:Name="btnGoiDoUong"
-            Content="Gọi đồ uống" 
+            x:Name="btnChonGame"
+            Content="Chọn Game" 
             FontSize="15"
             HorizontalAlignment="Center" 
             Height="30" 
             Margin="0,444,0,0" 
             VerticalAlignment="Top" 
             Width="118"
-            Click="setOnClick_btnGoiDoUong" />
+            Click="setOnClick_btnChonGame" />
 
     </Grid>
 </Window>

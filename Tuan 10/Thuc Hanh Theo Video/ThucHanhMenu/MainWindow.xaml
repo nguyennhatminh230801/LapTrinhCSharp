@@ -1,0 +1,159 @@
+﻿<Window
+    x:Class="ThucHanhMenu.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:ThucHanhMenu"
+    mc:Ignorable="d"
+    Title="MainWindow"
+    Height="450"
+    Width="800">
+    <StackPanel>
+        <StackPanel.Resources>
+            <Image
+                x:Key="Copy"
+                Source="Images/copy.png"
+                Width="16"
+                Height="16" />
+            <Image
+                x:Key="Paste"
+                Source="Images/paste.png"
+                Width="16"
+                Height="16" />
+            <Image
+                x:Key="Cut"
+                Source="Images/cut.png"
+                Width="16"
+                Height="16" />
+        </StackPanel.Resources>
+        <Menu
+            Height="24"
+            VerticalAlignment="Top">
+            <MenuItem
+                x:Name="menu1"
+                Header="Thực đơn 1">
+                <MenuItem
+                    Header="Copy"
+                    Command="ApplicationCommands.Copy"
+                    ToolTip="Copy Văn Bản"
+                    Icon="{StaticResource Copy}" />
+                <MenuItem
+                    Header="Paste"
+                    Command="ApplicationCommands.Paste"
+                    ToolTip="Paste Văn Bản"
+                    Icon="{StaticResource Paste}" />
+                <MenuItem
+                    Header="Cut"
+                    Command="ApplicationCommands.Cut"
+                    ToolTip="Cut Văn Bản"
+                    Icon="{StaticResource Cut}" />
+            </MenuItem>
+            <MenuItem
+                x:Name="menu2"
+                Header="Thực đơn 2">
+                <MenuItem
+                    Header="Thực đơn 21">
+                    <MenuItem
+                        Header="Thực đơn 211"
+                        Click="Click_MenuItem211" />
+                    <MenuItem
+                        Header="Thực đơn 212"
+                        Click="Click_MenuItem212" />
+                    />
+                </MenuItem>
+                <MenuItem
+                    Header="Thực đơn 22" />
+                <MenuItem
+                    Header="Thực đơn 23"
+                    IsCheckable="True" />
+            </MenuItem>
+            <MenuItem
+                x:Name="menu3"
+                Header="Thực đơn 3" />
+        </Menu>
+        <ToolBar
+            Name="toolbar1"
+            Height="26"
+            Width="280"
+            HorizontalAlignment="Left">
+            <Button 
+                x:Name="button1"
+                Height="26"
+                Width="23"
+                Command="ApplicationCommands.Copy"
+                ToolTip="Copy Văn Bản">
+                <Image 
+                    Source="Images/copy.png" 
+                    Width="16"
+                    Height="16"
+                    HorizontalAlignment="Left"/>
+            </Button>
+            <Button
+                x:Name="button2"
+                Height="26"
+                Width="23"
+                Command="ApplicationCommands.Paste"
+                ToolTip="Paste Văn Bản">
+                <Image
+                    Source="Images/paste.png"
+                    Width="16"
+                    Height="16"
+                    HorizontalAlignment="Left" />
+            </Button>
+            <Button
+                x:Name="button3"
+                Height="26"
+                Width="23"
+                Command="ApplicationCommands.Cut"
+                ToolTip="Cut Văn Bản">
+                <Image
+                    Source="Images/cut.png"
+                    Width="16"
+                    Height="16"
+                    HorizontalAlignment="Left" />
+            </Button>
+            <Separator />
+            <Button
+                x:Name="btnTangCoChu"
+                Height="26"
+                Width="23"
+                Click="setOnClick_btnTangCoChu">
+                <Image
+                    Source="Images/increase.png"
+                    Width="16"
+                    Height="16"
+                    HorizontalAlignment="Left" />
+            </Button>
+            <Button
+                x:Name="btnGiamCoChu"
+                Height="26"
+                Width="23"
+                Click="setOnClick_btnGiamCoChu">
+                <Image
+                    Source="Images/decrease.png"
+                    Width="16"
+                    Height="16"
+                    HorizontalAlignment="Left" />
+            </Button>
+            <CheckBox
+                x:Name="BoldText"
+                ToolTip="Chữ Đậm">
+                <Image
+                    Source="Images/bold.png"
+                    Width="16"
+                    Height="16"
+                    HorizontalAlignment="Left"/>
+            </CheckBox>
+            <CheckBox
+                x:Name="ItalicText"
+                ToolTip="Chữ Nghiêng">
+                <Image
+                    Source="Images/italic.png"
+                    Width="16"
+                    Height="16"
+                    HorizontalAlignment="Left" />
+            </CheckBox>
+        </ToolBar>
+    </StackPanel>
+</Window>

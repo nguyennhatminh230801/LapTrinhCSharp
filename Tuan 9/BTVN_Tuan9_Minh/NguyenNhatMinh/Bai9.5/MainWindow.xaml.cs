@@ -26,7 +26,7 @@ namespace Bai9._5
             WindowStartupLocation = WindowStartupLocation.CenterScreen;
         }
 
-        private void setOnClick_btnGoiDoUong(object sender, RoutedEventArgs e)
+        private void setOnClick_btnChonGame(object sender, RoutedEventArgs e)
         {
             List<string> answer = new List<string>();
 
