@@ -1,0 +1,165 @@
+﻿<Window
+    x:Class="PhieuGiaoBaiTap3.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:PhieuGiaoBaiTap3"
+    mc:Ignorable="d"
+    Title="Quản Lý Danh Mục Sản Phẩm"
+    Height="800"
+    Width="800">
+    <Grid Loaded="OnLoadingForm">
+        <Grid.RowDefinitions>
+            <RowDefinition
+                Height="23*" />
+            <RowDefinition
+                Height="173*" />
+        </Grid.RowDefinitions>
+        <Label
+            Content="Mã Sản Phẩm:"
+            HorizontalAlignment="Left"
+            Margin="50,30,0,0"
+            VerticalAlignment="Top"
+            FontSize="15" />
+        <Label
+            Content="Tên Sản Phẩm:"
+            HorizontalAlignment="Left"
+            Margin="50,75,0,0"
+            VerticalAlignment="Top"
+            FontSize="15"
+            Grid.RowSpan="2" />
+        <Label
+            Content="Số Lượng:"
+            HorizontalAlignment="Left"
+            Margin="50,28,0,0"
+            VerticalAlignment="Top"
+            FontSize="15"
+            Grid.Row="1" />
+        <Label
+            Content="Đơn Giá:"
+            HorizontalAlignment="Left"
+            Margin="50,73,0,0"
+            VerticalAlignment="Top"
+            FontSize="15"
+            Grid.Row="1" />
+        <Label
+            Content="Mã Loại:"
+            HorizontalAlignment="Left"
+            Margin="50,118,0,0"
+            VerticalAlignment="Top"
+            FontSize="15"
+            Grid.Row="1" />
+        <TextBox
+            x:Name="txtMaSP"
+            FontSize="15"
+            HorizontalAlignment="Left"
+            Margin="191,34,0,0"
+            TextWrapping="Wrap"
+            VerticalAlignment="Top"
+            Width="550" />
+        <TextBox
+            x:Name="txTenSP"
+            FontSize="15"
+            HorizontalAlignment="Left"
+            Margin="191,79,0,0"
+            TextWrapping="Wrap"
+            VerticalAlignment="Top"
+            Width="550"
+            Grid.RowSpan="2" />
+        <TextBox
+            x:Name="txSoLuong"
+            FontSize="15"
+            HorizontalAlignment="Left"
+            Margin="191,32,0,0"
+            TextWrapping="Wrap"
+            VerticalAlignment="Top"
+            Width="550"
+            Grid.Row="1" />
+        <TextBox
+            x:Name="txDonGia"
+            FontSize="15"
+            HorizontalAlignment="Left"
+            Margin="191,77,0,0"
+            TextWrapping="Wrap"
+            VerticalAlignment="Top"
+            Width="550"
+            Grid.Row="1" />
+        <TextBox
+            x:Name="txMaLoai"
+            FontSize="15"
+            HorizontalAlignment="Left"
+            Margin="191,122,0,0"
+            TextWrapping="Wrap"
+            VerticalAlignment="Top"
+            Width="550"
+            Grid.Row="1" />
+        <DataGrid
+            x:Name="dataGridSanPham"
+            Margin="50,172,50,68"
+            Grid.Row="1">
+            <DataGrid.Columns>
+                <DataGridTextColumn
+                    Header="Mã SP"
+                    Binding="{Binding MaSP}" 
+                    Width="100"/>
+                <DataGridTextColumn
+                    Header="Tên SP"
+                    Binding="{Binding TenSP}"
+                    Width="200"/>
+                <DataGridTextColumn
+                    Header="Đơn Giá"
+                    Binding="{Binding DonGia}"
+                    Width="100" />
+                <DataGridTextColumn
+                    Header="Số Lượng"
+                    Binding="{Binding SoLuong}"
+                    Width="100" />
+                <DataGridTextColumn
+                    Header="Tên Loại Sản Phẩm"
+                    Binding="{Binding TenLoai}"
+                    Width="200" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button
+            x:Name="btnThem"
+            Content="Thêm"
+            FontSize="15"
+            HorizontalAlignment="Left"
+            Margin="162,642,0,0"
+            VerticalAlignment="Top"
+            Width="94"
+            Height="32"
+            Grid.Row="1" />
+        <Button
+            x:Name="btnSua"
+            Content="Sửa"
+            FontSize="15"
+            HorizontalAlignment="Left"
+            Margin="295,642,0,0"
+            VerticalAlignment="Top"
+            Width="94"
+            Height="32"
+            Grid.Row="1" />
+        <Button
+            x:Name="btnXoa"
+            Content="Xóa"
+            FontSize="15"
+            HorizontalAlignment="Left"
+            Margin="427,642,0,0"
+            VerticalAlignment="Top"
+            Width="94"
+            Height="32"
+            Grid.Row="1" />
+        <Button
+            x:Name="btnThoat"
+            Content="Thoát"
+            FontSize="15"
+            HorizontalAlignment="Left"
+            Margin="553,642,0,0"
+            VerticalAlignment="Top"
+            Width="94"
+            Height="32"
+            Grid.Row="1" />
+    </Grid>
+</Window>

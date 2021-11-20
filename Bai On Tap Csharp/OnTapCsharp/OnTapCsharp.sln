@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnTapCsharp", "OnTapCsharp.csproj", "{87783D79-9A5A-4DFE-8C18-B7AA5AC755FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87783D79-9A5A-4DFE-8C18-B7AA5AC755FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87783D79-9A5A-4DFE-8C18-B7AA5AC755FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87783D79-9A5A-4DFE-8C18-B7AA5AC755FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87783D79-9A5A-4DFE-8C18-B7AA5AC755FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3170098F-51A0-4231-901A-C11D08052CB5}
+	EndGlobalSection
+EndGlobal

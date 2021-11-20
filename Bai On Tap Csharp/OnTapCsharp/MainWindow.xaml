@@ -1,0 +1,159 @@
+﻿<Window
+    x:Class="OnTapCsharp.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:OnTapCsharp"
+    mc:Ignorable="d"
+    Title="Quản Lý Nhân Viên"
+    Height="600"
+    Width="800">
+    <Grid
+        Loaded="MainWindow_LoadingForm">
+        <Label
+            Content="Quản Lý Nhân Viên"
+            HorizontalAlignment="Center"
+            Height="48"
+            Margin="0,10,0,0"
+            VerticalAlignment="Top"
+            Width="281"
+            FontSize="30"
+            FontWeight="Bold" />
+        <Label
+            Content="Tên Nhân Viên: "
+            HorizontalAlignment="Left"
+            Margin="90,75,0,0"
+            VerticalAlignment="Top"
+            FontSize="15" />
+        <TextBox
+            x:Name="txtTenNV"
+            HorizontalAlignment="Center"
+            Margin="0,81,0,0"
+            TextWrapping="Wrap"
+            VerticalAlignment="Top"
+            Width="344"
+            RenderTransformOrigin="0.186,0.219"
+            FontSize="15" />
+        <Label
+            Content="Phòng Ban: "
+            HorizontalAlignment="Left"
+            Margin="90,119,0,0"
+            VerticalAlignment="Top"
+            FontSize="15" />
+        <Label
+            Content="Ngoại Ngữ: "
+            HorizontalAlignment="Left"
+            Margin="90,165,0,0"
+            VerticalAlignment="Top"
+            FontSize="15" />
+        <CheckBox
+            x:Name="chkAnh"
+            Content="Anh"
+            HorizontalAlignment="Left"
+            Margin="228,174,0,0"
+            VerticalAlignment="Top"
+            FontSize="15" />
+        <CheckBox
+            x:Name="chkPhap"
+            Content="Pháp"
+            HorizontalAlignment="Left"
+            Margin="322,174,0,0"
+            VerticalAlignment="Top"
+            FontSize="15" />
+        <CheckBox
+            x:Name="chkTrung"
+            Content="Trung"
+            HorizontalAlignment="Left"
+            Margin="416,174,0,0"
+            VerticalAlignment="Top"
+            FontSize="15" />
+        <ComboBox
+            x:Name="cbxPhongBan"
+            HorizontalAlignment="Center"
+            Margin="0,127,0,0"
+            VerticalAlignment="Top"
+            Width="344"
+            SelectedIndex="0"
+            FontSize="15">
+            <ComboBoxItem>Tổ Chức</ComboBoxItem>
+            <ComboBoxItem>Vật Tư</ComboBoxItem>
+            <ComboBoxItem>Tài Chính</ComboBoxItem>
+            <ComboBoxItem>Kế Hoạch</ComboBoxItem>
+        </ComboBox>
+        <Label
+            Content="Ngày Sinh: "
+            HorizontalAlignment="Left"
+            Margin="90,208,0,0"
+            VerticalAlignment="Top"
+            FontSize="15" />
+        <DatePicker
+            x:Name="dtpkNgaySinh"
+            HorizontalAlignment="Center"
+            Margin="0,208,0,0"
+            VerticalAlignment="Top"
+            Width="344"
+            FontSize="15" />
+        <Label
+            Content="Số ngày làm việc: "
+            HorizontalAlignment="Left"
+            Margin="90,254,0,0"
+            VerticalAlignment="Top"
+            FontSize="15" />
+        <TextBox
+            x:Name="txtSoNgayLamViec"
+            HorizontalAlignment="Center"
+            Margin="0,262,0,0"
+            TextWrapping="Wrap"
+            VerticalAlignment="Top"
+            Width="344"
+            RenderTransformOrigin="0.186,0.219"
+            FontSize="15" />
+        <Label
+            Content="Danh Sách Nhân Viên: "
+            HorizontalAlignment="Left"
+            Margin="90,306,0,0"
+            VerticalAlignment="Top"
+            FontSize="15"
+            FontWeight="Bold" />
+        <ListBox
+            x:Name="lbData"
+            HorizontalAlignment="Left"
+            Height="161"
+            Margin="90,341,0,0"
+            VerticalAlignment="Top"
+            Width="634"
+            FontSize="15" />
+        <Button
+            x:Name="btnThem"
+            Content="Thêm"
+            HorizontalAlignment="Left"
+            Height="30"
+            Margin="189,536,0,0"
+            VerticalAlignment="Top"
+            Width="104"
+            FontSize="15"
+            Click="btnThem_Click" />
+        <Button
+            x:Name="btnXoa"
+            Content="Xóa"
+            HorizontalAlignment="Left"
+            Height="30"
+            Margin="355,536,0,0"
+            VerticalAlignment="Top"
+            Width="104"
+            FontSize="15"
+            Click="btnXoa_Click" />
+        <Button
+            x:Name="btnWindow2"
+            Content="Windows 2"
+            HorizontalAlignment="Left"
+            Height="30"
+            Margin="522,536,0,0"
+            VerticalAlignment="Top"
+            Width="104"
+            FontSize="15"
+            Click="btnWindow2_Click" />
+
+    </Grid>
+</Window>

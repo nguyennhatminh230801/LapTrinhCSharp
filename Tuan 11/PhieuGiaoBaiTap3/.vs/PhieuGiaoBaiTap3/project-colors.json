@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "96426fc7-4bce-45f3-8fd9-fa228b411fa7": {
+      "ProjectGuid": "96426fc7-4bce-45f3-8fd9-fa228b411fa7",
+      "DisplayName": "PhieuGiaoBaiTap3",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "dcb48748-e065-4d38-815f-eaf8156e3158": {
+      "ProjectGuid": "dcb48748-e065-4d38-815f-eaf8156e3158",
+      "DisplayName": "PhieuGiaoBaiTap3",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

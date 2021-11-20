@@ -1,0 +1,145 @@
+﻿<Window
+    x:Class="OnTapCsharp.Window2"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:OnTapCsharp"
+    mc:Ignorable="d"
+    Title="Window2"
+    Height="450"
+    Width="800">
+    <Grid>
+        <Label
+            Content="Quản Lý Nhân Viên"
+            HorizontalAlignment="Center"
+            Height="48"
+            Margin="0,10,0,0"
+            VerticalAlignment="Top"
+            Width="281"
+            FontSize="30"
+            FontWeight="Bold" />
+        <Label
+            Content="Tên Nhân Viên: "
+            HorizontalAlignment="Left"
+            Margin="90,75,0,0"
+            VerticalAlignment="Top"
+            FontSize="15" />
+        <TextBox
+            x:Name="txtTenNV"
+            HorizontalAlignment="Center"
+            Margin="0,81,0,0"
+            TextWrapping="Wrap"
+            VerticalAlignment="Top"
+            Width="344"
+            RenderTransformOrigin="0.186,0.219"
+            FontSize="15"
+            IsEnabled="False" />
+        <Label
+            Content="Phòng Ban: "
+            HorizontalAlignment="Left"
+            Margin="90,119,0,0"
+            VerticalAlignment="Top"
+            FontSize="15" />
+        <Label
+            Content="Ngoại Ngữ: "
+            HorizontalAlignment="Left"
+            Margin="90,165,0,0"
+            VerticalAlignment="Top"
+            FontSize="15" />
+        <CheckBox
+            x:Name="chkAnh"
+            Content="Anh"
+            HorizontalAlignment="Left"
+            Margin="228,174,0,0"
+            VerticalAlignment="Top"
+            FontSize="15"
+            IsEnabled="False" />
+        <CheckBox
+            x:Name="chkPhap"
+            Content="Pháp"
+            HorizontalAlignment="Left"
+            Margin="322,174,0,0"
+            VerticalAlignment="Top"
+            FontSize="15"
+            IsEnabled="False"/>
+        <CheckBox
+            x:Name="chkTrung"
+            Content="Trung"
+            HorizontalAlignment="Left"
+            Margin="416,174,0,0"
+            VerticalAlignment="Top"
+            FontSize="15"
+            IsEnabled="False"/>
+        <ComboBox
+            x:Name="cbxPhongBan"
+            HorizontalAlignment="Center"
+            Margin="0,127,0,0"
+            VerticalAlignment="Top"
+            Width="344"
+            SelectedIndex="0"
+            FontSize="15"
+            IsEnabled="False">
+            <ComboBoxItem>Tổ Chức</ComboBoxItem>
+            <ComboBoxItem>Vật Tư</ComboBoxItem>
+            <ComboBoxItem>Tài Chính</ComboBoxItem>
+            <ComboBoxItem>Kế Hoạch</ComboBoxItem>
+        </ComboBox>
+        <Label
+            Content="Ngày Sinh: "
+            HorizontalAlignment="Left"
+            Margin="90,208,0,0"
+            VerticalAlignment="Top"
+            FontSize="15" />
+        <DatePicker
+            x:Name="dtpkNgaySinh"
+            HorizontalAlignment="Center"
+            Margin="0,208,0,0"
+            VerticalAlignment="Top"
+            Width="344"
+            FontSize="15"
+            IsEnabled="False"/>
+        <Label
+            Content="Số ngày làm việc: "
+            HorizontalAlignment="Left"
+            Margin="90,254,0,0"
+            VerticalAlignment="Top"
+            FontSize="15" />
+        <TextBox
+            x:Name="txtSoNgayLamViec"
+            HorizontalAlignment="Center"
+            Margin="0,262,0,0"
+            TextWrapping="Wrap"
+            VerticalAlignment="Top"
+            Width="344"
+            RenderTransformOrigin="0.186,0.219"
+            FontSize="15"
+            IsEnabled="False"/>
+        <Button
+            x:Name="btnDong"
+            Content="Đóng"
+            HorizontalAlignment="Left"
+            Height="30"
+            Margin="322,371,0,0"
+            VerticalAlignment="Top"
+            Width="104"
+            FontSize="15"
+            Click="btnDong_Click" />
+        <Label
+            Content="Tiền Lương: "
+            HorizontalAlignment="Left"
+            Margin="90,305,0,0"
+            VerticalAlignment="Top"
+            FontSize="15" />
+        <TextBox
+            x:Name="txtTienLuong"
+            HorizontalAlignment="Center"
+            Margin="0,313,0,0"
+            TextWrapping="Wrap"
+            VerticalAlignment="Top"
+            Width="344"
+            RenderTransformOrigin="0.186,0.219"
+            FontSize="15"
+            IsEnabled="False" />
+    </Grid>
+</Window>
