@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b8d0308f-e74a-4cb5-b5f1-d2a9c386be1b": {
+      "ProjectGuid": "b8d0308f-e74a-4cb5-b5f1-d2a9c386be1b",
+      "DisplayName": "PhieuGiaoBaiTap1",
+      "ColorIndex": 0
+    },
+    "f9ef3176-b141-4b02-bb0e-f9ee41f949cd": {
+      "ProjectGuid": "f9ef3176-b141-4b02-bb0e-f9ee41f949cd",
+      "DisplayName": "PhieuGiaoBaiTap1",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

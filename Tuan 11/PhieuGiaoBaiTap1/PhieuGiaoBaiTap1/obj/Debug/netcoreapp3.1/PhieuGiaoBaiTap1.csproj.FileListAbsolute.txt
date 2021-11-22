@@ -1,0 +1,14 @@
+D:\Github Clone\LapTrinhCSharp\Tuan 11\PhieuGiaoBaiTap1\PhieuGiaoBaiTap1\bin\Debug\netcoreapp3.1\PhieuGiaoBaiTap1.exe
+D:\Github Clone\LapTrinhCSharp\Tuan 11\PhieuGiaoBaiTap1\PhieuGiaoBaiTap1\bin\Debug\netcoreapp3.1\PhieuGiaoBaiTap1.deps.json
+D:\Github Clone\LapTrinhCSharp\Tuan 11\PhieuGiaoBaiTap1\PhieuGiaoBaiTap1\bin\Debug\netcoreapp3.1\PhieuGiaoBaiTap1.runtimeconfig.json
+D:\Github Clone\LapTrinhCSharp\Tuan 11\PhieuGiaoBaiTap1\PhieuGiaoBaiTap1\bin\Debug\netcoreapp3.1\PhieuGiaoBaiTap1.runtimeconfig.dev.json
+D:\Github Clone\LapTrinhCSharp\Tuan 11\PhieuGiaoBaiTap1\PhieuGiaoBaiTap1\bin\Debug\netcoreapp3.1\PhieuGiaoBaiTap1.dll
+D:\Github Clone\LapTrinhCSharp\Tuan 11\PhieuGiaoBaiTap1\PhieuGiaoBaiTap1\bin\Debug\netcoreapp3.1\PhieuGiaoBaiTap1.pdb
+D:\Github Clone\LapTrinhCSharp\Tuan 11\PhieuGiaoBaiTap1\PhieuGiaoBaiTap1\obj\Debug\netcoreapp3.1\PhieuGiaoBaiTap1.csproj.AssemblyReference.cache
+D:\Github Clone\LapTrinhCSharp\Tuan 11\PhieuGiaoBaiTap1\PhieuGiaoBaiTap1\obj\Debug\netcoreapp3.1\PhieuGiaoBaiTap1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github Clone\LapTrinhCSharp\Tuan 11\PhieuGiaoBaiTap1\PhieuGiaoBaiTap1\obj\Debug\netcoreapp3.1\PhieuGiaoBaiTap1.AssemblyInfoInputs.cache
+D:\Github Clone\LapTrinhCSharp\Tuan 11\PhieuGiaoBaiTap1\PhieuGiaoBaiTap1\obj\Debug\netcoreapp3.1\PhieuGiaoBaiTap1.AssemblyInfo.cs
+D:\Github Clone\LapTrinhCSharp\Tuan 11\PhieuGiaoBaiTap1\PhieuGiaoBaiTap1\obj\Debug\netcoreapp3.1\PhieuGiaoBaiTap1.csproj.CoreCompileInputs.cache
+D:\Github Clone\LapTrinhCSharp\Tuan 11\PhieuGiaoBaiTap1\PhieuGiaoBaiTap1\obj\Debug\netcoreapp3.1\PhieuGiaoBaiTap1.dll
+D:\Github Clone\LapTrinhCSharp\Tuan 11\PhieuGiaoBaiTap1\PhieuGiaoBaiTap1\obj\Debug\netcoreapp3.1\PhieuGiaoBaiTap1.pdb
+D:\Github Clone\LapTrinhCSharp\Tuan 11\PhieuGiaoBaiTap1\PhieuGiaoBaiTap1\obj\Debug\netcoreapp3.1\PhieuGiaoBaiTap1.genruntimeconfig.cache
