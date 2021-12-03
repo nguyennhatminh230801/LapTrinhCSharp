@@ -151,23 +151,23 @@
                 <DataGridTextColumn
                     Header="Mã Hàng"
                     Binding="{Binding MaHang}"
-                    Width="100" />
+                    Width="*" />
                 <DataGridTextColumn
                     Header="Tên Hàng"
                     Binding="{Binding TenHang}"
-                    Width="200" />
+                    Width="*" />
                 <DataGridTextColumn
                     Header="Đơn Giá"
                     Binding="{Binding DonGia}"
-                    Width="150" />
+                    Width="*" />
                 <DataGridTextColumn
                     Header="Số Lượng"
                     Binding="{Binding SoLuong}"
-                    Width="100" />
+                    Width="*" />
                 <DataGridTextColumn
                     Header="Thành Tiền"
                     Binding="{Binding ThanhTien}"
-                    Width="150" />
+                    Width="*" />
             </DataGrid.Columns>
         </DataGrid>
         <Button

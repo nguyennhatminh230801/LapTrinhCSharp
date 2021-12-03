@@ -87,6 +87,7 @@ namespace Tuan12
                 ThanhTien = int.Parse(txtĐonGia.Text) * int.Parse(txtSoLuong.Text)
             };
 
+
             dataGridSanPham.Items.Add(ResSanPham);
             txtMaHang.Clear();
             txtSoLuong.Clear();
@@ -109,7 +110,7 @@ namespace Tuan12
                 HoaDonChiTiet hoaDonChiTiet = new HoaDonChiTiet();
                 hoaDonChiTiet.MaHd = txtSoHoaDon.Text;
                 hoaDonChiTiet.MaSp = propertyInfos[0].GetValue(item).ToString();
-                hoaDonChiTiet.SoLuongMua = int.Parse(propertyInfos[2].GetValue(item).ToString());
+                hoaDonChiTiet.SoLuongMua = int.Parse(propertyInfos[3].GetValue(item).ToString());
 
                 database.HoaDonChiTiets.Add(hoaDonChiTiet);
             }

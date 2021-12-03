@@ -52,7 +52,7 @@ namespace Tuan12
                     MessageBox.Show("Đăng Nhập Thành Công!!!", "Thông Báo", MessageBoxButton.OK, MessageBoxImage.Information);
                    
                     window.Show();
-                    Close(); //Close để đóng cửa sổ app Đăng Nhập, ShutDown tắt hoàn toàn 1 app
+                    Close(); 
                 }
                 else
                 {
