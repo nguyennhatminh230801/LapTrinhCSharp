@@ -1,0 +1,265 @@
+﻿<Window
+    x:Class="NguyenNhatMinh_285.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:NguyenNhatMinh_285"
+    mc:Ignorable="d"
+    Title="Course Exam"
+    Height="700"
+    Width="1000"
+    FontSize="15">
+    <Window.Resources>
+        <!--Style này nhắm đến các TextBox-->
+        <Style
+            TargetType="TextBox">
+            <!--Sử dụng trigger hứng thao tác người dùng-->
+            <Style.Triggers>
+                <!--IsMouseOver kiểm tra người dùng di chuột vào TextBox-->
+                <Trigger
+                    Property="IsMouseOver"
+                    Value="True">
+                    <!--Setter gán màu nền vs màu chữ-->
+                    <Setter
+                        Property="Background"
+                        Value="Yellow" />
+
+                    <!--Foreground màu chữ, Background màu nền-->
+                    <Setter
+                        Property="Foreground"
+                        Value="Red" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <!--Style này nhắm đến các Button-->
+        <Style
+            TargetType="Button">
+            <Setter
+                Property="Template">
+                <Setter.Value>
+                    <ControlTemplate 
+                        TargetType="Button">
+                        <Border
+                            CornerRadius="50"
+                            Background="{TemplateBinding Background}">
+                            <ContentPresenter
+                                VerticalAlignment="Center"
+                                HorizontalAlignment="Center" />
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+
+            <Setter
+                Property="Background"
+                Value="Aqua" />
+        </Style>
+
+        <Style
+            TargetType="DataGridColumnHeader">
+            <Setter
+                Property="FontWeight"
+                Value="Bold" />
+            <Setter
+                Property="HorizontalContentAlignment"
+                Value="Center" />
+        </Style>
+        <Style
+            TargetType="DataGridCell">
+            <Setter
+                Property="HorizontalAlignment"
+                Value="Right" />
+        </Style>
+    </Window.Resources>
+    <Grid Loaded="LoadWindow">
+        <!--Chia thành 8 dòng Height=auto chiều cao bám vừa dòng đó-->
+        <Grid.RowDefinitions>
+            <RowDefinition
+                Height="auto" />
+            <RowDefinition
+                Height="auto" />
+            <RowDefinition
+                Height="auto" />
+            <RowDefinition
+                Height="auto" />
+            <RowDefinition
+                Height="auto" />
+            <RowDefinition
+                Height="auto" />
+            <RowDefinition />
+            <RowDefinition
+                Height="auto" />
+        </Grid.RowDefinitions>
+        <!--Chia thành 2 cột Width=auto chiều rộng bám vừa cột đó-->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition
+                Width="auto" />
+            <ColumnDefinition />
+            <!--Cột 2 chiếm phần còn lại nên width ko auto-->
+        </Grid.ColumnDefinitions>
+
+        <!--Dòng 1-->
+        <Label
+            Grid.Row="0"
+            Grid.ColumnSpan="2"
+            Content="SALE MANAGEMENT"
+            FontWeight="Bold"
+            FontSize="30"
+            Margin="0,30,0,10"
+            HorizontalAlignment="Center" />
+
+        <!--Dòng 2-->
+        <!--Margin : Trái, Trên, Phải, Dưới-->
+        <Label
+            Grid.Row="1"
+            Grid.Column="0"
+            Content="Product ID"
+            Margin="200,10,0,10" />
+
+        <TextBox
+            x:Name="txtProductID"
+            Grid.Row="1"
+            Grid.Column="1"
+            Margin="40,10,100,10"
+            Width="400"
+            HorizontalAlignment="Left" />
+
+        <!--Dòng 3-->
+        <Label
+            Grid.Row="2"
+            Grid.Column="0"
+            Content="Product Name"
+            Margin="200,10,0,10" />
+
+        <TextBox
+            x:Name="txtProductName"
+            Grid.Row="2"
+            Grid.Column="1"
+            Margin="40,10,100,10"
+            Width="400"
+            HorizontalAlignment="Left" />
+
+        <!--Dòng 4-->
+        <Label
+            Grid.Row="3"
+            Grid.Column="0"
+            Content="Unit Price"
+            Margin="200,10,0,10" />
+
+        <TextBox
+            x:Name="txtUnitPrice"
+            Grid.Row="3"
+            Grid.Column="1"
+            Margin="40,10,100,10"
+            Width="400"
+            HorizontalAlignment="Left" />
+
+        <!--Dòng 5-->
+        <Label
+            Grid.Row="4"
+            Grid.Column="0"
+            Content="Quantity"
+            Margin="200,10,0,10" />
+
+        <TextBox
+            x:Name="txtQuantity"
+            Grid.Row="4"
+            Grid.Column="1"
+            Margin="40,10,100,10"
+            Width="400"
+            HorizontalAlignment="Left" />
+
+        <!--Dòng 6-->
+        <Label
+            Grid.Row="5"
+            Grid.Column="0"
+            Content="Category"
+            Margin="200,10,0,10" />
+
+        <ComboBox
+            x:Name="cboCategory"
+            Grid.Row="5"
+            Grid.Column="1"
+            Margin="40,10,100,10"
+            Width="400"
+            HorizontalAlignment="Left" />
+
+        <!--Dòng 7-->
+        <Grid
+            Grid.Row="6"
+            Grid.ColumnSpan="2"
+            Margin="20,10,20,10">
+            <!--AutoGenerateColumns="False" để tránh đổ thừa cột dữ liệu-->
+            <DataGrid
+                x:Name="dtgrProduct"
+                AutoGenerateColumns="False"
+                SelectionChanged="ChonSanPham">
+                <DataGrid.Columns>
+                    <!--Binding nối dữ liệu vào cột-->
+                    <DataGridTextColumn
+                        Header="Product ID"
+                        Width="*"
+                        Binding="{Binding ProductID, Mode=OneWay}"/>
+                    <DataGridTextColumn
+                        Header="Product Name"
+                        Width="2*"
+                        Binding="{Binding ProductName, Mode=OneWay}"/>
+                    <DataGridTextColumn
+                        Header="Category ID"
+                        Width="*"
+                        Binding="{Binding CategoryID, Mode=OneWay}" />
+                    <DataGridTextColumn
+                        Header="Unit Price"
+                        Width="*"
+                        Binding="{Binding UnitPrice, Mode=OneWay}"/>
+                    <DataGridTextColumn
+                        Header="Quantity"
+                        Width="*"
+                        Binding="{Binding Quantity, Mode=OneWay}"/>
+                    <DataGridTextColumn
+                        Header="Amount"
+                        Width="*"
+                        Binding="{Binding Amount, StringFormat=N0, Mode=OneWay}"
+                        Foreground="DarkBlue"
+                        FontStyle="Italic"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+        <!--Dòng 8-->
+        <WrapPanel
+            Grid.Row="7"
+            Grid.ColumnSpan="2"
+            HorizontalAlignment="Center"
+            Margin="0,20,0,20">
+            <Button
+                x:Name="btnInsert"
+                Content="Insert"
+                Width="100"
+                Height="30"
+                Margin="0,0,30,0"
+                Click="btnInsert_Click" />
+            <Button
+                x:Name="btnUpdate"
+                Content="Update"
+                Width="100"
+                Height="30"
+                Margin="0,0,30,0"
+                Click="btnUpdate_Click" />
+            <Button
+                x:Name="btnDelete"
+                Content="Delete"
+                Width="100"
+                Height="30"
+                Margin="0,0,30,0"
+                Click="btnDelete_Click" />
+            <Button
+                x:Name="btnSearch"
+                Content="Search"
+                Width="100"
+                Height="30"
+                Click="btnSearch_Click" />
+        </WrapPanel>
+    </Grid>
+</Window>

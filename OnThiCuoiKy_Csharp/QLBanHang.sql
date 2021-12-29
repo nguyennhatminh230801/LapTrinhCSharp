@@ -37,4 +37,10 @@ INSERT INTO HoaDonChiTiet VALUES('H01','S02','2021/09/20',20)
 INSERT INTO HoaDonChiTiet VALUES('H02','S01','2021/09/20',30)
 INSERT INTO HoaDonChiTiet VALUES('H03','S02','2021/09/20',40)
 
-select * from KhachHang
+create table KhachHang(
+	MaKH nvarchar(5) primary key,
+	HoTen nvarchar(50),
+	GioiTinh nvarchar(5) --Giong bool
+
+	constraint PK_KhachHang primary key(MaKH)
+)

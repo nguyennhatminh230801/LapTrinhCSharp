@@ -12,7 +12,7 @@
     FontSize="20">
     <Window.Resources>
         <!-- Style TextBox-->
-        <Style 
+        <Style
             TargetType="TextBox">
             <!--Font Size 15, Chu Mau Do-->
             <Setter
@@ -23,7 +23,7 @@
                 Value="Red" />
 
             <!-- Sử dụng Trigger để hứng sự kiện MouseOver-->
-                <Style.Triggers>
+            <Style.Triggers>
                 <Trigger
                     Property="IsMouseOver"
                     Value="True">
@@ -170,7 +170,7 @@
                     <DataGridTextColumn
                         Header="Mã sản phẩm"
                         Binding="{Binding MaSP, Mode=OneWay}"
-                        Width="*"/> 
+                        Width="*" />
                     <DataGridTextColumn
                         Header="Tên sản phẩm"
                         Width="2*"
@@ -182,16 +182,16 @@
                     <DataGridTextColumn
                         Header="Số lượng có"
                         Width="*"
-                        Binding="{Binding SoLuongCo, Mode=OneWay}"/>
+                        Binding="{Binding SoLuongCo, Mode=OneWay}" />
                     <DataGridTextColumn
                         Header="Đơn giá"
                         Width="*"
-                        Binding="{Binding DonGia, Mode=OneWay}"/>
+                        Binding="{Binding DonGia, Mode=OneWay}" />
                     <DataGridTextColumn
                         Header="Thành Tiền"
                         Foreground="Red"
-                        Width="*" 
-                        Binding="{Binding ThanhTien, Mode=OneWay}"/>
+                        Width="*"
+                        Binding="{Binding ThanhTien, Mode=OneWay}" />
                 </DataGrid.Columns>
             </DataGrid>
         </Grid>

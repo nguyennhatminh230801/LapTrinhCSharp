@@ -5801,11 +5801,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\OneDrive\\Desktop\\OnThiCuoiKy_Csharp\\Style_Template_EFCore_OnThi\\Style_Template_EFCore_OnThi.csproj",
+      "projectUniqueName": "D:\\Github Clone\\LapTrinhCSharp\\OnThiCuoiKy_Csharp\\Style_Template_EFCore_OnThi\\Style_Template_EFCore_OnThi.csproj",
       "projectName": "Style_Template_EFCore_OnThi",
-      "projectPath": "C:\\Users\\Admin\\OneDrive\\Desktop\\OnThiCuoiKy_Csharp\\Style_Template_EFCore_OnThi\\Style_Template_EFCore_OnThi.csproj",
+      "projectPath": "D:\\Github Clone\\LapTrinhCSharp\\OnThiCuoiKy_Csharp\\Style_Template_EFCore_OnThi\\Style_Template_EFCore_OnThi.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\OneDrive\\Desktop\\OnThiCuoiKy_Csharp\\Style_Template_EFCore_OnThi\\obj\\",
+      "outputPath": "D:\\Github Clone\\LapTrinhCSharp\\OnThiCuoiKy_Csharp\\Style_Template_EFCore_OnThi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

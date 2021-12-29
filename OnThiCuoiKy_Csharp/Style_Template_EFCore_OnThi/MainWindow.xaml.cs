@@ -23,7 +23,7 @@ namespace Style_Template_EFCore_OnThi
     public partial class MainWindow : Window
     {
         private SanPham? SanPhamDuocChon;
-        private const List<LoaiSp> danhSachLoaiSanPham;
+        private List<LoaiSp> danhSachLoaiSanPham;
         public MainWindow()
         {
             InitializeComponent();
@@ -36,7 +36,7 @@ namespace Style_Template_EFCore_OnThi
             cboLoai.ItemsSource = queryUpdateCombobox.ToList();
 
             danhSachLoaiSanPham = (from elem in database.LoaiSps
-                                  select elem).ToList();
+                                   select elem).ToList();
         }
 
         private void DataGridLoadData()
@@ -95,10 +95,10 @@ namespace Style_Template_EFCore_OnThi
             DataGridLoadData();
         }
 
-        //5) Khi Thêm 1 bản ghi vào bảng SanPham cần kiểm tra dữ liệu hợp lệ và xử lý ngoại lệ  như sau: 
-        //+ Tất cả các trường dữ liệu phải nhập
-        //+ Kiểm tra số lượng có và đơn giá phải là số nguyên và > 0. 
-        //+ Khi thêm 1 bản ghi vào bảng, nếu trùng mã sản phẩm thì phải có thông báo.
+        ////5) Khi Thêm 1 bản ghi vào bảng SanPham cần kiểm tra dữ liệu hợp lệ và xử lý ngoại lệ  như sau: 
+        ////+ Tất cả các trường dữ liệu phải nhập
+        ////+ Kiểm tra số lượng có và đơn giá phải là số nguyên và > 0. 
+        ////+ Khi thêm 1 bản ghi vào bảng, nếu trùng mã sản phẩm thì phải có thông báo.
 
         private void btnThem_Click(object sender, RoutedEventArgs e)
         {
@@ -121,8 +121,8 @@ namespace Style_Template_EFCore_OnThi
                 //throw new Exception(test1);
 
                 string? query2 = (from elem in database.LoaiSps
-                              where elem.TenLoai.Equals(test1)
-                              select elem.MaLoai).SingleOrDefault();
+                                  where elem.TenLoai.Equals(test1)
+                                  select elem.MaLoai).SingleOrDefault();
 
                 if (!string.IsNullOrWhiteSpace(query2))
                 {
@@ -134,7 +134,7 @@ namespace Style_Template_EFCore_OnThi
                         SoLuongCo = int.Parse(txtSoLuongCo.Text),
                         MaLoai = query2
                     });
-                    
+
                     database.SaveChanges();
 
                     SanPhamDuocChon = null;
@@ -152,10 +152,10 @@ namespace Style_Template_EFCore_OnThi
             }
         }
 
-        //6)	Khi sửa 1 bản ghi trong bảng SanPham cần kiểm tra dữ liệu hợp lệ và xử lý ngoại lệ như sau: 
-        //+Tất cả các trường dữ liệu phải nhập
-        //+Kiểm tra số lượng có và đơn giá phải là số nguyên và > 0. 
-        //+ Không sửa mã
+        ////6)	Khi sửa 1 bản ghi trong bảng SanPham cần kiểm tra dữ liệu hợp lệ và xử lý ngoại lệ như sau: 
+        ////+Tất cả các trường dữ liệu phải nhập
+        ////+Kiểm tra số lượng có và đơn giá phải là số nguyên và > 0. 
+        ////+ Không sửa mã
 
         private void btnSua_Click(object sender, RoutedEventArgs e)
         {
@@ -175,19 +175,19 @@ namespace Style_Template_EFCore_OnThi
                         txtMa.Text = SanPhamDuocChon.MaSp;
                         throw new Exception("Không cho phép sửa Mã Sản Phẩm");
                     }
-                    
+
                     MessageBoxResult dialogResult = MessageBox.Show("Bạn chắc chắn muốn sửa lại thông tin sản phẩm này không ?", "Thông Báo", MessageBoxButton.YesNoCancel, MessageBoxImage.Question);
 
-                    if(dialogResult == MessageBoxResult.Yes)
+                    if (dialogResult == MessageBoxResult.Yes)
                     {
                         var SanPhamInDatabase = (from elem in database.SanPhams
                                                  where elem.MaSp.Equals(SanPhamDuocChon.MaSp)
                                                  select elem).SingleOrDefault();
 
-                        if(SanPhamInDatabase == null)
+                        if (SanPhamInDatabase == null)
                         {
                             throw new Exception("Không tìm được sản phẩm này!!!");
-                        }    
+                        }
 
                         SanPhamInDatabase.TenSp = txtTen.Text;
                         SanPhamInDatabase.DonGia = int.Parse(txtDonGia.Text);
@@ -265,9 +265,9 @@ namespace Style_Template_EFCore_OnThi
                     txtDonGia.Text = sanPham.DonGia.ToString();
                     txtSoLuongCo.Text = sanPham.SoLuongCo.ToString();
 
-                    for(int i = 0; i < danhSachLoaiSanPham.Count(); i++)
+                    for (int i = 0; i < danhSachLoaiSanPham.Count(); i++)
                     {
-                        if(danhSachLoaiSanPham[i].MaLoai.Equals(sanPham.MaLoai))
+                        if (danhSachLoaiSanPham[i].MaLoai.Equals(sanPham.MaLoai))
                         {
                             cboLoai.SelectedIndex = i;
                         }
@@ -277,10 +277,11 @@ namespace Style_Template_EFCore_OnThi
                 }
             }
         }
-
-        private void btnTim_Click(object sender, RoutedEventArgs e)
-        {
-            new Window2().Show();
+    }
+            private void btnTim_Click(object sender, RoutedEventArgs e)
+            {
+                new Window2().Show();
+            }
         }
     }
-}
+

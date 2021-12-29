@@ -17,6 +17,7 @@ namespace Style_Template_EFCore_OnThi.Models
         {
         }
 
+        //Table
         public virtual DbSet<HoaDonChiTiet> HoaDonChiTiets { get; set; }
         public virtual DbSet<LoaiSp> LoaiSps { get; set; }
         public virtual DbSet<SanPham> SanPhams { get; set; }
@@ -38,7 +39,7 @@ namespace Style_Template_EFCore_OnThi.Models
             modelBuilder.Entity<HoaDonChiTiet>(entity =>
             {
                 entity.HasKey(e => new { e.MaHd, e.MaSp })
-                    .HasName("PK__HoaDonCh__F557F6613FA27083");
+                    .HasName("PK__HoaDonCh__F557F6611EFB0E6A");
 
                 entity.ToTable("HoaDonChiTiet");
 
@@ -66,7 +67,7 @@ namespace Style_Template_EFCore_OnThi.Models
             modelBuilder.Entity<LoaiSp>(entity =>
             {
                 entity.HasKey(e => e.MaLoai)
-                    .HasName("PK__LoaiSP__730A575989486C3B");
+                    .HasName("PK__LoaiSP__730A5759595BA320");
 
                 entity.ToTable("LoaiSP");
 
@@ -81,7 +82,7 @@ namespace Style_Template_EFCore_OnThi.Models
             modelBuilder.Entity<SanPham>(entity =>
             {
                 entity.HasKey(e => e.MaSp)
-                    .HasName("PK__SanPham__2725081C539B0877");
+                    .HasName("PK__SanPham__2725081C46C04DE8");
 
                 entity.ToTable("SanPham");
 
@@ -106,8 +107,11 @@ namespace Style_Template_EFCore_OnThi.Models
                     .HasConstraintName("FK__SanPham__MaLoai__267ABA7A");
             });
 
-            modelBuilder.Entity<KhachHang>(entity =>{
-                entity.HasKey(e => e.MaKH).HasName("PK_KhachHang");
+            //Tạo 1 thực thể
+            modelBuilder.Entity<KhachHang>(entity =>
+            {
+                entity.HasKey(e => e.MaKH).HasName("PK__KhachHan__2725CF1EE7737D7F");
+
                 entity.ToTable("KhachHang");
 
                 entity.Property(e => e.MaKH)
@@ -116,17 +120,18 @@ namespace Style_Template_EFCore_OnThi.Models
                     .HasColumnName("MaKH")
                     .IsFixedLength(true);
 
-                entity.Property(e => e.HoTen)
-                     .HasMaxLength(50)
-                     .IsUnicode(false)
-                     .HasColumnName("HoTen")
-                     .IsFixedLength(true);
+                entity.Property(e => e.TenKH)
+                    .HasMaxLength(50)
+                    .IsUnicode(false)
+                    .HasColumnName("HoTen")
+                    .IsFixedLength(true);
 
                 entity.Property(e => e.GioiTinh)
-                     .HasMaxLength(5)
-                     .IsUnicode(false)
-                     .HasColumnName("GioiTinh")
-                     .IsFixedLength(true);
+                    .HasMaxLength(5)
+                    .IsUnicode(false)
+                    .HasColumnName("GioiTinh")
+                    .IsFixedLength(true);
+
             });
             OnModelCreatingPartial(modelBuilder);
         }
