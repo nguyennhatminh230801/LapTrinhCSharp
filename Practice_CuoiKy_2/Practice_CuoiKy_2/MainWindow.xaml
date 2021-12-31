@@ -1,0 +1,242 @@
+﻿<Window
+    x:Class="Practice_CuoiKy_2.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:Practice_CuoiKy_2"
+    mc:Ignorable="d"
+    Title="Bài Kiểm Tra Số 2"
+    Height="600"
+    Width="1000"
+    FontSize="15">
+    <Window.Resources>
+        <Style
+            TargetType="Button">
+            <Setter
+                Property="Foreground"
+                Value="Green" />
+            <Setter
+                Property="Background"
+                Value="Gold" />
+            <Setter
+                Property="Template">
+                <Setter.Value>
+                    <ControlTemplate
+                        TargetType="Button">
+                        <Border
+                            CornerRadius="60"
+                            Background="{TemplateBinding Background}">
+                            <ContentPresenter 
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Grid
+        Loaded="LoadDataGrid">
+        <!--Chia grid lớn 2 phần-->
+        <Grid.RowDefinitions>
+            <RowDefinition
+                Height="auto" /> <!--Phần 1 nhét Label Height="auto" chiều cao sẽ phụ thuộc vào Label-->
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <!--Phần 1: Grid.Row="0"-->
+        <!--Margin: Left, Top, Right, Bottom -> Theo chiều kim đồng hồ-->
+        <Label
+            Content="Quản Lý Thông Tin Nhân Viên"
+            Grid.Row="0" 
+            Foreground="Blue"
+            FontWeight="Bold"
+            FontSize="30"
+            HorizontalContentAlignment="Center"
+            Margin="0,10,0,10" />
+
+        <Border
+            Grid.Row="1"
+            BorderBrush="Green"
+            BorderThickness="2"
+            Margin="20,10,20,10">
+            <Grid
+                Background="Beige">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition
+                        Width="auto" />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition
+                        Height="auto" />
+                    <RowDefinition
+                        Height="auto" />
+                    <RowDefinition
+                        Height="auto" />
+                    <RowDefinition
+                        Height="auto" />
+                    <RowDefinition
+                        Height="auto" />
+                    <RowDefinition />
+                    <RowDefinition
+                        Height="auto" />
+                </Grid.RowDefinitions>
+
+                <Label
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    Content="Mã Nhân Viên:"
+                    Margin="20,10,20,10"
+                    HorizontalAlignment="Left" />
+                <TextBox
+                    x:Name="txtMaNV"
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    Margin="20,10,20,10"
+                    Width="300"
+                    HorizontalAlignment="Left" />
+                <Label
+                    Grid.Row="1"
+                    Grid.Column="0"
+                    Content="Họ Tên:"
+                    Margin="20,10,20,10"
+                    HorizontalAlignment="Left" />
+                <TextBox
+                    x:Name="txtTenNV"
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    Margin="20,10,20,10"
+                    Width="300"
+                    HorizontalAlignment="Left" />
+                <Label
+                    Grid.Row="2"
+                    Grid.Column="0"
+                    Content="Ngày Sinh:"
+                    Margin="20,10,20,10"
+                    HorizontalAlignment="Left" />
+                <DatePicker
+                    x:Name="dtpkNgaySinh"
+                    Grid.Row="2"
+                    Grid.Column="1"
+                    Margin="20,10,20,10"
+                    Width="300"
+                    HorizontalAlignment="Left" />
+                <Label
+                    Grid.Row="3"
+                    Grid.Column="0"
+                    Content="Giới Tính:"
+                    Margin="20,10,20,10"
+                    HorizontalAlignment="Left" />
+                <WrapPanel
+                    Grid.Row="3"
+                    Grid.Column="1"
+                    Margin="20,10,20,10"
+                    Width="300"
+                    HorizontalAlignment="Left">
+                    <RadioButton
+                        x:Name="rdNam"
+                        Content="Nam"
+                        GroupName="GioiTinh"
+                        IsChecked="True"
+                        Margin="20,10,80,10" />
+                    <RadioButton
+                        x:Name="rdNu"
+                        Content="Nữ"
+                        GroupName="GioiTinh"
+                        Margin="20,10,0,10" />
+                </WrapPanel>
+
+                <Label
+                    Grid.Row="4"
+                    Grid.Column="0"
+                    Content="Phòng Ban:"
+                    Margin="20,10,20,10"
+                    HorizontalAlignment="Left" />
+                <ComboBox
+                    x:Name="cboPhongBan"
+                    Grid.Row="4"
+                    Grid.Column="1"
+                    Margin="20,10,20,10"
+                    Width="300"
+                    HorizontalAlignment="Left">
+                    <ComboBoxItem>Tổ Chức</ComboBoxItem>
+                    <ComboBoxItem>Tài Chính</ComboBoxItem>
+                    <ComboBoxItem>Kế Hoạch</ComboBoxItem>
+                </ComboBox>
+
+                <DataGrid
+                    Grid.Row="5"
+                    Grid.ColumnSpan="2"
+                    Margin="20,10,20,10">
+                    <DataGrid.Resources>
+                        <Style
+                            TargetType="DataGridColumnHeader">
+                            <Setter
+                                Property="FontWeight"
+                                Value="Bold" />
+                            <Setter
+                                Property="HorizontalContentAlignment"
+                                Value="Center" />
+                        </Style>
+                    </DataGrid.Resources>
+                    <DataGrid.Columns>
+                        <DataGridTextColumn
+                            Header="Mã Nhân Viên"
+                            Width="*"
+                            Binding="{Binding MaNV, Mode=OneWay}" />
+                        <DataGridTextColumn
+                            Header="Họ Tên"
+                            Width="2*"
+                            Binding="{Binding TenNV, Mode=OneWay}" />
+                        <DataGridTextColumn
+                            Header="Giới Tính"
+                            Width="*"
+                            Binding="{Binding GioiTinh, Mode=OneWay}" />
+                        <DataGridTextColumn
+                            Header="Phòng Ban"
+                            Width="*"
+                            Binding="{Binding PhongBan, Mode=OneWay}" />
+                        <DataGridTextColumn
+                            Header="Ngày Sinh"
+                            Width="*"
+                            Binding="{Binding NgaySinh, Mode=OneWay}" />
+                        <DataGridTextColumn
+                            Header="Tuổi"
+                            Width="*"
+                            Binding="{Binding Tuoi, Mode=OneWay}"
+                            Foreground="Red" />
+                    </DataGrid.Columns>
+                </DataGrid>
+
+                <WrapPanel
+                    Grid.Row="6"
+                    Grid.ColumnSpan="2"
+                    HorizontalAlignment="Center">
+                    <Button
+                        x:Name="btnNhap"
+                        Content="Nhập"
+                        Width="100"
+                        Height="30"
+                        Margin="20,10,30,10"
+                        Click="setOnClick_btnNhap"/>
+                    <Button
+                        x:Name="btnWindow2"
+                        Content="Window 2"
+                        Width="100"
+                        Height="30"
+                        Margin="20,10,30,10"
+                        Click="setOnClick_btnWindow2"/>
+                    <Button
+                        x:Name="btnXoa"
+                        Content="Xóa"
+                        Width="100"
+                        Height="30"
+                        Margin="20,10,20,10"
+                        Click="setOnClick_btnXoa"/>
+                </WrapPanel>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>
